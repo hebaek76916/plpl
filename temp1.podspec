@@ -1,10 +1,3 @@
-//
-//  temp1.podspec.swift
-//  temp1
-//
-//  Created by 현은백 on 2023/08/29.
-//
-
 Pod::Spec.new do |spec|
     spec.name            = "temp1"
     spec.version         = "1.0.2"
