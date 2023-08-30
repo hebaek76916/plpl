@@ -5,14 +5,15 @@
 //  Created by 현은백 on 2023/08/23.
 //
 
+import Alamofire
 import Foundation
 
-protocol KCPA_Datasource: AnyObject {
+public protocol KCPA_Datasource: AnyObject {
     func KCPA_GetPlaybackPosition() -> Int
     func KCPA_GetPlaybackBitrate() -> String
 }
 
-protocol KCPA_Delegate: AnyObject {
+public protocol KCPA_Delegate: AnyObject {
     
     func authentificationInfoDidReceived()
     
@@ -31,7 +32,7 @@ protocol KCPA_Delegate: AnyObject {
     )
 }
 
-class KCP_Analytics {
+public class KCP_Analytics {
     
     weak var dataSource: KCPA_Datasource?
     weak var delegate: KCPA_Delegate?
@@ -39,9 +40,10 @@ class KCP_Analytics {
     
     static let shared = KCP_Analytics()
     
-    var strAccessSession: String = ""
-    var strWatchSession: String = ""
-    var strDownloadSession: String?
+    //TODO: 보기.
+    var strAccessSession = Session()
+    var strWatchSession = Session()
+    var strDownloadSession = Session()
     
     var dicAuthInfo: [String: Any] = [:]//NSDictionary
     var dicConfiguration: [String: Any] = [:]//NSDictionary
@@ -169,4 +171,25 @@ class KCP_Analytics {
     
     
     
+}
+
+//🤡
+//MARK: Watch log methods
+extension KCP_Analytics {
+    
+    func getWatchLogInfo -> [String: Any]{
+        let strWatchLogReqURL = dicConfiguration[kWatchLogURL]
+        let strReqMethod = dicConfiguration[kRequestMethod]
+        let nCheckInterval = dicConfiguration[kCheckInterval]
+        let strAuthToken = dicConfiguration[kAuthToken]
+        
+        return [
+            kWatchLogURL: strWatchLogReqURL ?? "",
+            kRequestMethod: strReqMethod ?? "",
+            kCheckInterval: nCheckInterval ?? 30,
+            kAuthToken: strAuthToken ?? "",
+            kAccessSession: strAccessSession,
+            kWatchSession: strWatchSession ?? ""
+        ] as [String: Any]
+    }
 }

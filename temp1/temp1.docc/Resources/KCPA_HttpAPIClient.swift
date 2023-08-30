@@ -9,7 +9,7 @@ import Foundation
 import Alamofire//TODO: Specification
 import CFNetwork
 
-enum KCPA_APIType: Int {
+public enum KCPA_APIType: Int {
     case KCPA_API_Authenticate = 0
     case KCPA_API_Session_Start
     case KCPA_API_Session_SignIn
@@ -44,7 +44,7 @@ enum KCPA_APIType: Int {
     }
 }
 
-protocol KCPA_HttpAPIClientDelegate: NSObject {
+public protocol KCPA_HttpAPIClientDelegate: NSObject {
     
     //MARK: required methods
     

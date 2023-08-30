@@ -12,7 +12,6 @@
 		1307C1532A948E9600785C79 /* temp1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1307C1522A948E9600785C79 /* temp1Tests.swift */; };
 		1307C1542A948E9600785C79 /* temp1.h in Headers */ = {isa = PBXBuildFile; fileRef = 1307C1462A948E9600785C79 /* temp1.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1307C15F2A9491EC00785C79 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1307C15E2A9491EC00785C79 /* Alamofire */; };
-		1307C21B2A9D94F200785C79 /* temp1.podspec in Sources */ = {isa = PBXBuildFile; fileRef = 1307C21A2A9D94F200785C79 /* temp1.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +30,6 @@
 		1307C1472A948E9600785C79 /* temp1.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = temp1.docc; sourceTree = "<group>"; };
 		1307C14D2A948E9600785C79 /* temp1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = temp1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1307C1522A948E9600785C79 /* temp1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = temp1Tests.swift; sourceTree = "<group>"; };
-		1307C21A2A9D94F200785C79 /* temp1.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = temp1.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				1307C1462A948E9600785C79 /* temp1.h */,
-				1307C21A2A9D94F200785C79 /* temp1.podspec */,
 				1307C1472A948E9600785C79 /* temp1.docc */,
 			);
 			path = temp1;
@@ -155,6 +152,7 @@
 				TargetAttributes = {
 					1307C1422A948E9600785C79 = {
 						CreatedOnToolsVersion = 14.3.1;
+						LastSwiftMigration = 1430;
 					};
 					1307C14C2A948E9600785C79 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -205,7 +203,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1307C21B2A9D94F200785C79 /* temp1.podspec in Sources */,
 				1307C1482A948E9600785C79 /* temp1.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -347,6 +344,7 @@
 		1307C1582A948E9600785C79 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
@@ -377,6 +375,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -385,6 +384,7 @@
 		1307C1592A948E9600785C79 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;

@@ -9,9 +9,7 @@ import Alamofire
 import Foundation
 
 
-extension DataRequest {
-    
-}
+extension DataRequest {}
 
 
 class Interceptor: RequestInterceptor {
