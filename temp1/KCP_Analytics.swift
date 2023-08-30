@@ -159,7 +159,8 @@ public class KCP_Analytics {
             
         case .KCPA_API_Download_Complete,
              .KCPA_API_Download_Error:
-            strDownloadSession = nil
+            ()
+//            strDownloadSession = nil
 //        case .KCPA_API_Download_Delete:
 //            <#code#>
 //        case .KCPA_API_Activity:
@@ -177,7 +178,7 @@ public class KCP_Analytics {
 //MARK: Watch log methods
 extension KCP_Analytics {
     
-    func getWatchLogInfo -> [String: Any]{
+    func getWatchLogInfo() -> [String: Any]{
         let strWatchLogReqURL = dicConfiguration[kWatchLogURL]
         let strReqMethod = dicConfiguration[kRequestMethod]
         let nCheckInterval = dicConfiguration[kCheckInterval]
@@ -189,7 +190,7 @@ extension KCP_Analytics {
             kCheckInterval: nCheckInterval ?? 30,
             kAuthToken: strAuthToken ?? "",
             kAccessSession: strAccessSession,
-            kWatchSession: strWatchSession ?? ""
+            kWatchSession: strWatchSession
         ] as [String: Any]
     }
 }

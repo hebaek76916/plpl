@@ -12,6 +12,16 @@
 		1307C1532A948E9600785C79 /* temp1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1307C1522A948E9600785C79 /* temp1Tests.swift */; };
 		1307C1542A948E9600785C79 /* temp1.h in Headers */ = {isa = PBXBuildFile; fileRef = 1307C1462A948E9600785C79 /* temp1.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1307C15F2A9491EC00785C79 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1307C15E2A9491EC00785C79 /* Alamofire */; };
+		13ED4E9A2A9F0EFE00899AD7 /* KCP_Analytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ED4E982A9F0EFE00899AD7 /* KCP_Analytics.swift */; };
+		13ED4E9B2A9F0EFE00899AD7 /* extension+DataRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ED4E912A9F0EFE00899AD7 /* extension+DataRequest.swift */; };
+		13ED4E9C2A9F0EFE00899AD7 /* KCPA_HttpAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ED4E992A9F0EFE00899AD7 /* KCPA_HttpAPIClient.swift */; };
+		13ED4E9D2A9F0EFE00899AD7 /* KCPA_Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ED4E902A9F0EFE00899AD7 /* KCPA_Utils.swift */; };
+		13ED4E9E2A9F0EFE00899AD7 /* KCPA_HttpAPIClient-Swift.m in Sources */ = {isa = PBXBuildFile; fileRef = 13ED4E8F2A9F0EFE00899AD7 /* KCPA_HttpAPIClient-Swift.m */; };
+		13ED4E9F2A9F11BD00899AD7 /* CommonKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ED4E932A9F0EFE00899AD7 /* CommonKeys.swift */; };
+		13ED4EA02A9F11E800899AD7 /* ActionTypeValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ED4E942A9F0EFE00899AD7 /* ActionTypeValue.swift */; };
+		13ED4EA12A9F120E00899AD7 /* ResponseParamKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ED4E952A9F0EFE00899AD7 /* ResponseParamKeys.swift */; };
+		13ED4EA22A9F122000899AD7 /* CastTypeValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ED4E962A9F0EFE00899AD7 /* CastTypeValue.swift */; };
+		13ED4EA32A9F153200899AD7 /* KCPA_HttpAPIClient-Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 13ED4E8D2A9EFADB00899AD7 /* KCPA_HttpAPIClient-Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +40,17 @@
 		1307C1472A948E9600785C79 /* temp1.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = temp1.docc; sourceTree = "<group>"; };
 		1307C14D2A948E9600785C79 /* temp1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = temp1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1307C1522A948E9600785C79 /* temp1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = temp1Tests.swift; sourceTree = "<group>"; };
-		13ED4E8D2A9EFADB00899AD7 /* KCPA_HttpClient-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KCPA_HttpClient-Swift.h"; sourceTree = "<group>"; };
+		13ED4E8D2A9EFADB00899AD7 /* KCPA_HttpAPIClient-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KCPA_HttpAPIClient-Swift.h"; sourceTree = "<group>"; };
+		13ED4E8F2A9F0EFE00899AD7 /* KCPA_HttpAPIClient-Swift.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "KCPA_HttpAPIClient-Swift.m"; sourceTree = "<group>"; };
+		13ED4E902A9F0EFE00899AD7 /* KCPA_Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCPA_Utils.swift; sourceTree = "<group>"; };
+		13ED4E912A9F0EFE00899AD7 /* extension+DataRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "extension+DataRequest.swift"; sourceTree = "<group>"; };
+		13ED4E932A9F0EFE00899AD7 /* CommonKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonKeys.swift; sourceTree = "<group>"; };
+		13ED4E942A9F0EFE00899AD7 /* ActionTypeValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionTypeValue.swift; sourceTree = "<group>"; };
+		13ED4E952A9F0EFE00899AD7 /* ResponseParamKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseParamKeys.swift; sourceTree = "<group>"; };
+		13ED4E962A9F0EFE00899AD7 /* CastTypeValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastTypeValue.swift; sourceTree = "<group>"; };
+		13ED4E972A9F0EFE00899AD7 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		13ED4E982A9F0EFE00899AD7 /* KCP_Analytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCP_Analytics.swift; sourceTree = "<group>"; };
+		13ED4E992A9F0EFE00899AD7 /* KCPA_HttpAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCPA_HttpAPIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,7 +95,13 @@
 			isa = PBXGroup;
 			children = (
 				1307C1462A948E9600785C79 /* temp1.h */,
-				13ED4E8D2A9EFADB00899AD7 /* KCPA_HttpClient-Swift.h */,
+				13ED4E922A9F0EFE00899AD7 /* Constants */,
+				13ED4E912A9F0EFE00899AD7 /* extension+DataRequest.swift */,
+				13ED4E982A9F0EFE00899AD7 /* KCP_Analytics.swift */,
+				13ED4E8D2A9EFADB00899AD7 /* KCPA_HttpAPIClient-Swift.h */,
+				13ED4E8F2A9F0EFE00899AD7 /* KCPA_HttpAPIClient-Swift.m */,
+				13ED4E992A9F0EFE00899AD7 /* KCPA_HttpAPIClient.swift */,
+				13ED4E902A9F0EFE00899AD7 /* KCPA_Utils.swift */,
 				1307C1472A948E9600785C79 /* temp1.docc */,
 			);
 			path = temp1;
@@ -89,6 +115,18 @@
 			path = temp1Tests;
 			sourceTree = "<group>";
 		};
+		13ED4E922A9F0EFE00899AD7 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				13ED4E932A9F0EFE00899AD7 /* CommonKeys.swift */,
+				13ED4E942A9F0EFE00899AD7 /* ActionTypeValue.swift */,
+				13ED4E952A9F0EFE00899AD7 /* ResponseParamKeys.swift */,
+				13ED4E962A9F0EFE00899AD7 /* CastTypeValue.swift */,
+				13ED4E972A9F0EFE00899AD7 /* Utility.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -97,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1307C1542A948E9600785C79 /* temp1.h in Headers */,
+				13ED4EA32A9F153200899AD7 /* KCPA_HttpAPIClient-Swift.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +244,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13ED4E9D2A9F0EFE00899AD7 /* KCPA_Utils.swift in Sources */,
+				13ED4E9F2A9F11BD00899AD7 /* CommonKeys.swift in Sources */,
+				13ED4EA12A9F120E00899AD7 /* ResponseParamKeys.swift in Sources */,
+				13ED4E9E2A9F0EFE00899AD7 /* KCPA_HttpAPIClient-Swift.m in Sources */,
+				13ED4EA22A9F122000899AD7 /* CastTypeValue.swift in Sources */,
 				1307C1482A948E9600785C79 /* temp1.docc in Sources */,
+				13ED4E9B2A9F0EFE00899AD7 /* extension+DataRequest.swift in Sources */,
+				13ED4EA02A9F11E800899AD7 /* ActionTypeValue.swift in Sources */,
+				13ED4E9C2A9F0EFE00899AD7 /* KCPA_HttpAPIClient.swift in Sources */,
+				13ED4E9A2A9F0EFE00899AD7 /* KCP_Analytics.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +396,7 @@
 		1307C1582A948E9600785C79 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -388,6 +437,7 @@
 		1307C1592A948E9600785C79 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -427,6 +477,7 @@
 		1307C15B2A948E9600785C79 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3F6RB5JZKP;
@@ -447,6 +498,7 @@
 		1307C15C2A948E9600785C79 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3F6RB5JZKP;

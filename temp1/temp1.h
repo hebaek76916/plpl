@@ -6,14 +6,10 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <temp1/KCPA_HttpAPIClient-Swift.h>
 //! Project version number for temp1.
 FOUNDATION_EXPORT double temp1VersionNumber;
 
 //! Project version string for temp1.
 FOUNDATION_EXPORT const unsigned char temp1VersionString[];
 
-
-
-
-#import "temp1-Swift.h"

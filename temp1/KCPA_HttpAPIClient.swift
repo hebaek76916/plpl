@@ -24,7 +24,7 @@ public enum KCPA_APIType: Int {
     case KCPA_API_Download_Error
     case KCPA_API_Activity
     
-    open var name: String {
+    public var name: String {
         switch self {
         case .KCPA_API_Authenticate:            return "KCPA_API_Authenticate"
         case .KCPA_API_Session_Start:           return "KCPA_API_Session_Start"
@@ -44,13 +44,13 @@ public enum KCPA_APIType: Int {
     }
 }
 
-open protocol KCPA_HttpAPIClientDelegate: NSObject {
+public protocol KCPA_HttpAPIClientDelegate: NSObject {
     
     //MARK: required methods
     
     //TODO: [ ]reqParam to Decodable Struct(json)
     //- (void)request:(KCPA_APIType)apiType didReceiveResponse:(nullable id)responseObject reqParams:(NSDictionary *)dicParams;
-    open func request(
+    func request(
         apiType: KCPA_APIType,
         didReceiveError errCode: Int,
         withMessage strErrMsg: String?,
@@ -76,7 +76,7 @@ open protocol KCPA_HttpAPIClientDelegate: NSObject {
 }
 
 extension KCPA_HttpAPIClientDelegate {
-    open func networkStatusDidChanged(status: NetworkReachabilityManager.NetworkReachabilityStatus) {}
+    public func networkStatusDidChanged(status: NetworkReachabilityManager.NetworkReachabilityStatus) {}
 }
 
 class KCPA_HttpAPIClient {
@@ -113,10 +113,10 @@ class KCPA_HttpAPIClient {
         let showDebug = showDebugLog
         
         if showDebug {
-            KCPA_Log("[HTTPClient] ====================================> Send Request (%@)", "_delegate")//TODO: delegate
-            KCPA_Log("[HTTPClient] API Type: %ld", apiType.rawValue)
-            KCPA_Log("[HTTPClient] Request URL: %@", requestURL)
-            KCPA_Log("[HTTPClient] Params: %@", params)
+//            KCPA_Log("[HTTPClient] ====================================> Send Request (%@)", "_delegate")//TODO: delegate
+//            KCPA_Log("[HTTPClient] API Type: %ld", apiType.rawValue)
+//            KCPA_Log("[HTTPClient] Request URL: %@", requestURL)
+//            KCPA_Log("[HTTPClient] Params: %@", params)
         }
 
         guard let url = URL(string: requestURL) else { return }
@@ -141,8 +141,8 @@ class KCPA_HttpAPIClient {
                 switch res.result {
                 case .success(let data):
                     if showDebug {
-                        KCPA_Log("[HTTPClient] <==================================== Receive response (%@)", "self.delegate")//TODO: self.delegate 출력.
-                        KCPA_Log("[HTTPClient] Response: %@", res.response ?? "")
+//                        KCPA_Log("[HTTPClient] <==================================== Receive response (%@)", "self.delegate")//TODO: self.delegate 출력.
+//                        KCPA_Log("[HTTPClient] Response: %@", res.response ?? "")
                     }
                     
                     guard let data else {
