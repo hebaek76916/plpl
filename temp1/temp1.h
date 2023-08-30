@@ -13,6 +13,6 @@ FOUNDATION_EXPORT double temp1VersionNumber;
 //! Project version string for temp1.
 FOUNDATION_EXPORT const unsigned char temp1VersionString[];
 
-//#import <temp1/PublicHeader.h>
+
 
 

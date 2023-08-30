@@ -24,7 +24,7 @@ public enum KCPA_APIType: Int {
     case KCPA_API_Download_Error
     case KCPA_API_Activity
     
-    var name: String {
+    open var name: String {
         switch self {
         case .KCPA_API_Authenticate:            return "KCPA_API_Authenticate"
         case .KCPA_API_Session_Start:           return "KCPA_API_Session_Start"
@@ -44,13 +44,13 @@ public enum KCPA_APIType: Int {
     }
 }
 
-public protocol KCPA_HttpAPIClientDelegate: NSObject {
+open protocol KCPA_HttpAPIClientDelegate: NSObject {
     
     //MARK: required methods
     
     //TODO: [ ]reqParam to Decodable Struct(json)
     //- (void)request:(KCPA_APIType)apiType didReceiveResponse:(nullable id)responseObject reqParams:(NSDictionary *)dicParams;
-    func request(
+    open func request(
         apiType: KCPA_APIType,
         didReceiveError errCode: Int,
         withMessage strErrMsg: String?,
@@ -76,7 +76,7 @@ public protocol KCPA_HttpAPIClientDelegate: NSObject {
 }
 
 extension KCPA_HttpAPIClientDelegate {
-    func networkStatusDidChanged(status: NetworkReachabilityManager.NetworkReachabilityStatus) {}
+    open func networkStatusDidChanged(status: NetworkReachabilityManager.NetworkReachabilityStatus) {}
 }
 
 class KCPA_HttpAPIClient {
@@ -92,7 +92,7 @@ class KCPA_HttpAPIClient {
         
     }
     
-    func setLogEnabled() {
+    open func setLogEnabled() {
         showDebugLog = true
         //setRetryPolicyLogMessagesEnabled(AFNetworking)
     }
