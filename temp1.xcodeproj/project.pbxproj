@@ -22,6 +22,7 @@
 		13ED4EDD2AA02F3C00899AD7 /* ResponseParamKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ED4EAA2A9F294700899AD7 /* ResponseParamKeys.swift */; };
 		13ED4EDE2AA02F4600899AD7 /* ActionTypeValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ED4EA92A9F294700899AD7 /* ActionTypeValue.swift */; };
 		13ED4EDF2AA02F5200899AD7 /* CastTypeValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ED4EAB2A9F294700899AD7 /* CastTypeValue.swift */; };
+		13ED4EE02AA032DD00899AD7 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ED4EAC2A9F294700899AD7 /* Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,7 +96,11 @@
 			isa = PBXGroup;
 			children = (
 				1307C1462A948E9600785C79 /* temp1.h */,
-				13ED4EA72A9F294700899AD7 /* Constants */,
+				13ED4EA82A9F294700899AD7 /* CommonKeys.swift */,
+				13ED4EA92A9F294700899AD7 /* ActionTypeValue.swift */,
+				13ED4EAA2A9F294700899AD7 /* ResponseParamKeys.swift */,
+				13ED4EAB2A9F294700899AD7 /* CastTypeValue.swift */,
+				13ED4EAC2A9F294700899AD7 /* Utility.swift */,
 				13ED4EA42A9F294700899AD7 /* extension+DataRequest.swift */,
 				13ED4EA52A9F294700899AD7 /* KCP_Analytics.swift */,
 				13ED4EA62A9F294700899AD7 /* KCPA_Utils.swift */,
@@ -113,18 +118,6 @@
 				1307C1522A948E9600785C79 /* temp1Tests.swift */,
 			);
 			path = temp1Tests;
-			sourceTree = "<group>";
-		};
-		13ED4EA72A9F294700899AD7 /* Constants */ = {
-			isa = PBXGroup;
-			children = (
-				13ED4EA82A9F294700899AD7 /* CommonKeys.swift */,
-				13ED4EA92A9F294700899AD7 /* ActionTypeValue.swift */,
-				13ED4EAA2A9F294700899AD7 /* ResponseParamKeys.swift */,
-				13ED4EAB2A9F294700899AD7 /* CastTypeValue.swift */,
-				13ED4EAC2A9F294700899AD7 /* Utility.swift */,
-			);
-			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +240,7 @@
 				13ED4EAF2A9F294700899AD7 /* KCPA_Utils.swift in Sources */,
 				13ED4EDE2AA02F4600899AD7 /* ActionTypeValue.swift in Sources */,
 				13ED4EDC2AA02F3100899AD7 /* CommonKeys.swift in Sources */,
+				13ED4EE02AA032DD00899AD7 /* Utility.swift in Sources */,
 				13ED4E9E2A9F0EFE00899AD7 /* KCPA_HttpAPIClient-Swift.m in Sources */,
 				13ED4EDF2AA02F5200899AD7 /* CastTypeValue.swift in Sources */,
 				13ED4EAD2A9F294700899AD7 /* extension+DataRequest.swift in Sources */,

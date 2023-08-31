@@ -11,3 +11,4 @@ import Foundation
 let kCastNone =                              ""
 let kCastAirPlay =                           "Air Play"
 let kCastGoogleCast =                        "Google Cast"
+    
