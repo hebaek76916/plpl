@@ -23,6 +23,9 @@
 		13ED4EDE2AA02F4600899AD7 /* ActionTypeValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ED4EA92A9F294700899AD7 /* ActionTypeValue.swift */; };
 		13ED4EDF2AA02F5200899AD7 /* CastTypeValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ED4EAB2A9F294700899AD7 /* CastTypeValue.swift */; };
 		13ED4EE02AA032DD00899AD7 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ED4EAC2A9F294700899AD7 /* Utility.swift */; };
+		13ED4EE22AA0716C00899AD7 /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ED4EE12AA0716C00899AD7 /* Fruit.swift */; };
+		13ED4EE42AA0724000899AD7 /* Fruit-Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 13ED4EE32AA0724000899AD7 /* Fruit-Swift.h */; };
+		13ED4EE62AA0725E00899AD7 /* Fruit-Swift.m in Sources */ = {isa = PBXBuildFile; fileRef = 13ED4EE52AA0725E00899AD7 /* Fruit-Swift.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,9 @@
 		13ED4EAA2A9F294700899AD7 /* ResponseParamKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseParamKeys.swift; sourceTree = "<group>"; };
 		13ED4EAB2A9F294700899AD7 /* CastTypeValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastTypeValue.swift; sourceTree = "<group>"; };
 		13ED4EAC2A9F294700899AD7 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		13ED4EE12AA0716C00899AD7 /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit.swift; sourceTree = "<group>"; };
+		13ED4EE32AA0724000899AD7 /* Fruit-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fruit-Swift.h"; sourceTree = "<group>"; };
+		13ED4EE52AA0725E00899AD7 /* Fruit-Swift.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Fruit-Swift.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +113,9 @@
 				13ED4E8D2A9EFADB00899AD7 /* KCPA_HttpAPIClient-Swift.h */,
 				13ED4E8F2A9F0EFE00899AD7 /* KCPA_HttpAPIClient-Swift.m */,
 				13ED4E992A9F0EFE00899AD7 /* KCPA_HttpAPIClient.swift */,
+				13ED4EE12AA0716C00899AD7 /* Fruit.swift */,
+				13ED4EE32AA0724000899AD7 /* Fruit-Swift.h */,
+				13ED4EE52AA0725E00899AD7 /* Fruit-Swift.m */,
 				1307C1472A948E9600785C79 /* temp1.docc */,
 			);
 			path = temp1;
@@ -129,6 +138,7 @@
 			files = (
 				1307C1542A948E9600785C79 /* temp1.h in Headers */,
 				13ED4EA32A9F153200899AD7 /* KCPA_HttpAPIClient-Swift.h in Headers */,
+				13ED4EE42AA0724000899AD7 /* Fruit-Swift.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +248,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				13ED4EAF2A9F294700899AD7 /* KCPA_Utils.swift in Sources */,
+				13ED4EE22AA0716C00899AD7 /* Fruit.swift in Sources */,
+				13ED4EE62AA0725E00899AD7 /* Fruit-Swift.m in Sources */,
 				13ED4EDE2AA02F4600899AD7 /* ActionTypeValue.swift in Sources */,
 				13ED4EDC2AA02F3100899AD7 /* CommonKeys.swift in Sources */,
 				13ED4EE02AA032DD00899AD7 /* Utility.swift in Sources */,
