@@ -10,4 +10,5 @@ Pod::Spec.new do |spec|
     spec.source          = { :git => "https://github.com/hebaek76916/plpl", :tag => "1.0.12" }
     spec.source_files    = "temp1"
     spec.swift_version   = "5.0"
+    spec.dependency      Alamofire
 end
