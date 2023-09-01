@@ -8,42 +8,18 @@
 import Alamofire
 import Foundation
 
-public protocol KCPA_Datasource: AnyObject {
-    func KCPA_GetPlaybackPosition() -> Int
-    func KCPA_GetPlaybackBitrate() -> String
-}
-
-public protocol KCPA_Delegate: AnyObject {
-    
-    func authentificationInfoDidReceived()
-    
-    func KCPA(
-        apiName: String,
-        didReceiveError errCode: Int,
-        withMessage strErrMsg: String,
-        error: Error?,
-        reqParam dicParams: [String: Any]
-    )
-    
-    func analyticsDebug(
-        apiName: String,
-        statusCode: Int,
-        header: [String:Any]
-    )
-}
-
 public class KCP_Analytics {
     
     weak var dataSource: KCPA_Datasource?
     weak var delegate: KCPA_Delegate?
-    var debugEnabled: Bool = false
+    
     
     static let shared = KCP_Analytics()
     
-    //TODO: 보기.
-    var strAccessSession = Session()
-    var strWatchSession = Session()
-    var strDownloadSession = Session()
+    //Session IDs
+    var strAccessSession: String?
+    var strWatchSession: String?
+    var strDownloadSession: String?
     
     var dicAuthInfo: [String: Any] = [:]//NSDictionary
     var dicConfiguration: [String: Any] = [:]//NSDictionary
@@ -54,7 +30,8 @@ public class KCP_Analytics {
     var dicDownloadLogParams: [String: Any] = [:]
     var dicActivityLogParams: [String: Any] = [:]
     
-    
+//    var arrPlayerStatus: [Any] = []//TODO: type 알아내야함
+//    var arrCastType: [Any] = []//TODO: type 알아내야함
     //TODO: enum으로 만들어도 되지 않을까?
     var arrPlayerStatus: [String] = [
         kActionBuffer,
@@ -69,7 +46,18 @@ public class KCP_Analytics {
         kCastNone,
         kCastAirPlay
     ]
-
+    var prevWatchLogAPIType: Int = -1
+    var prevWatchLogAction: String = ""
+    var prevPlayerStatus: Int = -1
+    var dicSessionRetryCount: [String: Any] = [:]//TODO: 무얼 저장하는지 알아내야함
+    var nReqAuthRetryCount: Int = -1
+    var nContentDuration: Int = -1
+    
+    var timerUpdate = Timer()
+    
+    var debugEnabled = false
+    var showNetworkLog = false
+    var sessionErrorReported = false
     
     private init() {}
     
@@ -170,6 +158,21 @@ public class KCP_Analytics {
         }
     }
     
+    func errorReport(
+        funcName: String,
+        errCode: Int,
+        errMsg strErrMsg: String?
+    ) {
+        delegate?
+            .KCPA(
+                apiName: funcName,
+                didReceiveError: errCode,
+                withMessage: strErrMsg,
+                error: nil,
+                reqParam: [:]
+            )
+    }
+    
     
     
 }
@@ -192,5 +195,134 @@ extension KCP_Analytics {
             kAccessSession: strAccessSession,
             kWatchSession: strWatchSession
         ] as [String: Any]
+    }
+}
+
+extension KCP_Analytics {
+    
+    func checkNSStringParam(
+        strParam: String?,
+        withName strName: String
+    ) -> Bool {
+        
+        var validate = false
+        
+        guard let strParam else {
+            if debugEnabled {
+                //KCPA_Log(@"[ERR] \"%@\" parameter does not allowed nil.", strName);
+            }
+            return false
+        }
+
+        if strParam.isEmpty
+        {
+            if strName == kPNUserType
+            {
+                if debugEnabled
+                {
+                    //KCPA_Log(@"[ERR] \"%@\" parameter does not allowed empty string.", strName);
+                }
+                return false
+            }
+            else
+            {
+                if debugEnabled
+                {
+                    //KCPA_Log(@"[WARNING] \"%@\" parameter is empty string.", strName);
+                }
+                return true
+            }
+        }
+        else
+        {
+            return true
+        }
+    }
+    
+    func checkAuthSessionIsInitialized() -> Bool {
+        if dicConfiguration.isEmpty
+        {
+            return true
+        }
+        else
+        {
+            //KCPA_Log(@"[ERR] KCP Analytics SDK already initialized");
+            return false
+        }
+    }
+    
+    func checkAccessSessionIsStarted() -> Bool {
+        let isWatchSession = strWatchSession != nil
+        let isAccessLogParams = !(dicAccessLogParams.isEmpty)
+        let isStart = kActionStart == (dicAccessLogParams[kActionType] as? String)
+        let isSignIn = kActionSignIn == (dicAccessLogParams[kActionType] as? String)
+        
+        let isAlreadyExistAccessSession = isWatchSession && isAccessLogParams && (isStart || isSignIn)
+        
+        if isAlreadyExistAccessSession
+        {
+            //KCPA_Log(@"[ERR] Access session already exists. Please reset the access session by calling the KCPA_UpdateSession [KCPA_Session_SignOut, KCPA_Session_Exit].");
+            //KCPA_Log(@"[ERR] Access session : %@", _strAccessSession);
+            return false
+        }
+        else
+        {
+            return true
+        }
+    }
+    
+    func checkWatchContentInfo(
+        strFuncName: String
+    ) -> Bool {
+        
+        var result = true
+        var strErrMsg: String?
+        
+        if dicWatchContentInfo.isEmpty
+        {
+            strErrMsg = "[ERR] Watch content information does not exist. Please set the watch content info by calling the KCPA_SetWatchContent."
+            result = false
+        }
+        else
+        {
+            var isAssetID: Bool = {
+                guard let assetID = dicWatchContentInfo[kAssetID] as? String else { return false }
+                return !assetID.isEmpty
+            }()
+
+            var isEpisodeName: Bool = {
+                guard let episodeName = dicWatchContentInfo[kEpisodeName] as? String else { return false }
+                return !episodeName.isEmpty
+            }()
+            
+            if !isAssetID || !isEpisodeName
+            {
+                strErrMsg = String(format:  "[ERR] The watch content information has an invalid required parameter. [%@ or %@]", kAssetID, kEpisodeName)
+                result = false
+            }
+            
+            
+            var isUserType: Bool = {
+                guard let userType = dicWatchContentInfo[kUserType] as? String else { return false }
+                return !userType.isEmpty
+            }()
+            
+            if !isUserType
+            {
+                strErrMsg = String(format: "[ERR] The watch content information has an invalid required parameter. [%@]", kUserType)
+                result = false
+            }
+        }
+        
+        if false == result
+        {
+            errorReport(
+                funcName: strFuncName,
+                errCode: 50000,
+                errMsg: strErrMsg
+            )
+        }
+        
+        return result
     }
 }

@@ -26,6 +26,10 @@
 		13ED4EE22AA0716C00899AD7 /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ED4EE12AA0716C00899AD7 /* Fruit.swift */; };
 		13ED4EE42AA0724000899AD7 /* Fruit-Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 13ED4EE32AA0724000899AD7 /* Fruit-Swift.h */; };
 		13ED4EE62AA0725E00899AD7 /* Fruit-Swift.m in Sources */ = {isa = PBXBuildFile; fileRef = 13ED4EE52AA0725E00899AD7 /* Fruit-Swift.m */; };
+		13ED4EE82AA181AB00899AD7 /* KCPA_HttpAPIClientDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ED4EE72AA181AB00899AD7 /* KCPA_HttpAPIClientDelegate.swift */; };
+		13ED4EEA2AA182F000899AD7 /* KCPA_APIIType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ED4EE92AA182F000899AD7 /* KCPA_APIIType.swift */; };
+		13ED4EED2AA1835F00899AD7 /* KCPA_DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ED4EEC2AA1835F00899AD7 /* KCPA_DataSource.swift */; };
+		13ED4EEF2AA1838200899AD7 /* KCPA_Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13ED4EEE2AA1838200899AD7 /* KCPA_Delegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +62,10 @@
 		13ED4EE12AA0716C00899AD7 /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit.swift; sourceTree = "<group>"; };
 		13ED4EE32AA0724000899AD7 /* Fruit-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Fruit-Swift.h"; sourceTree = "<group>"; };
 		13ED4EE52AA0725E00899AD7 /* Fruit-Swift.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "Fruit-Swift.m"; sourceTree = "<group>"; };
+		13ED4EE72AA181AB00899AD7 /* KCPA_HttpAPIClientDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCPA_HttpAPIClientDelegate.swift; sourceTree = "<group>"; };
+		13ED4EE92AA182F000899AD7 /* KCPA_APIIType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCPA_APIIType.swift; sourceTree = "<group>"; };
+		13ED4EEC2AA1835F00899AD7 /* KCPA_DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCPA_DataSource.swift; sourceTree = "<group>"; };
+		13ED4EEE2AA1838200899AD7 /* KCPA_Delegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KCPA_Delegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,17 +110,21 @@
 			isa = PBXGroup;
 			children = (
 				1307C1462A948E9600785C79 /* temp1.h */,
+				13ED4EAC2A9F294700899AD7 /* Utility.swift */,
+				13ED4EA42A9F294700899AD7 /* extension+DataRequest.swift */,
 				13ED4EA82A9F294700899AD7 /* CommonKeys.swift */,
 				13ED4EA92A9F294700899AD7 /* ActionTypeValue.swift */,
 				13ED4EAA2A9F294700899AD7 /* ResponseParamKeys.swift */,
+				13ED4EE92AA182F000899AD7 /* KCPA_APIIType.swift */,
 				13ED4EAB2A9F294700899AD7 /* CastTypeValue.swift */,
-				13ED4EAC2A9F294700899AD7 /* Utility.swift */,
-				13ED4EA42A9F294700899AD7 /* extension+DataRequest.swift */,
-				13ED4EA52A9F294700899AD7 /* KCP_Analytics.swift */,
 				13ED4EA62A9F294700899AD7 /* KCPA_Utils.swift */,
+				13ED4EA52A9F294700899AD7 /* KCP_Analytics.swift */,
+				13ED4EEC2AA1835F00899AD7 /* KCPA_DataSource.swift */,
+				13ED4EEE2AA1838200899AD7 /* KCPA_Delegate.swift */,
+				13ED4E992A9F0EFE00899AD7 /* KCPA_HttpAPIClient.swift */,
+				13ED4EE72AA181AB00899AD7 /* KCPA_HttpAPIClientDelegate.swift */,
 				13ED4E8D2A9EFADB00899AD7 /* KCPA_HttpAPIClient-Swift.h */,
 				13ED4E8F2A9F0EFE00899AD7 /* KCPA_HttpAPIClient-Swift.m */,
-				13ED4E992A9F0EFE00899AD7 /* KCPA_HttpAPIClient.swift */,
 				13ED4EE12AA0716C00899AD7 /* Fruit.swift */,
 				13ED4EE32AA0724000899AD7 /* Fruit-Swift.h */,
 				13ED4EE52AA0725E00899AD7 /* Fruit-Swift.m */,
@@ -247,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13ED4EE82AA181AB00899AD7 /* KCPA_HttpAPIClientDelegate.swift in Sources */,
 				13ED4EAF2A9F294700899AD7 /* KCPA_Utils.swift in Sources */,
 				13ED4EE22AA0716C00899AD7 /* Fruit.swift in Sources */,
 				13ED4EE62AA0725E00899AD7 /* Fruit-Swift.m in Sources */,
@@ -255,10 +268,13 @@
 				13ED4EE02AA032DD00899AD7 /* Utility.swift in Sources */,
 				13ED4E9E2A9F0EFE00899AD7 /* KCPA_HttpAPIClient-Swift.m in Sources */,
 				13ED4EDF2AA02F5200899AD7 /* CastTypeValue.swift in Sources */,
+				13ED4EED2AA1835F00899AD7 /* KCPA_DataSource.swift in Sources */,
 				13ED4EAD2A9F294700899AD7 /* extension+DataRequest.swift in Sources */,
 				1307C1482A948E9600785C79 /* temp1.docc in Sources */,
 				13ED4EAE2A9F294700899AD7 /* KCP_Analytics.swift in Sources */,
 				13ED4EDD2AA02F3C00899AD7 /* ResponseParamKeys.swift in Sources */,
+				13ED4EEF2AA1838200899AD7 /* KCPA_Delegate.swift in Sources */,
+				13ED4EEA2AA182F000899AD7 /* KCPA_APIIType.swift in Sources */,
 				13ED4E9C2A9F0EFE00899AD7 /* KCPA_HttpAPIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

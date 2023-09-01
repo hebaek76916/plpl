@@ -5,79 +5,9 @@
 //  Created by 현은백 on 2023/08/22.
 //
 
+import Alamofire
 import Foundation
-import Alamofire//TODO: Specification
-import CFNetwork
 
-public enum KCPA_APIType: Int {
-    case KCPA_API_Authenticate = 0
-    case KCPA_API_Session_Start
-    case KCPA_API_Session_SignIn
-    case KCPA_API_Session_SignOut
-    case KCPA_API_Session_Exit
-    case KCPA_API_Session_Error
-    case KCPA_API_Watch_Start
-    case KCPA_API_Watch_Update
-    case KCPA_API_Watch_Error
-    case KCPA_API_Download_Complete
-    case KCPA_API_Download_Delete
-    case KCPA_API_Download_Error
-    case KCPA_API_Activity
-    
-    public var name: String {
-        switch self {
-        case .KCPA_API_Authenticate:            return "KCPA_API_Authenticate"
-        case .KCPA_API_Session_Start:           return "KCPA_API_Session_Start"
-        case .KCPA_API_Session_SignIn:          return "KCPA_API_Session_SignIn"
-        case .KCPA_API_Session_SignOut:         return "KCPA_API_Session_SignOut"
-        case .KCPA_API_Session_Exit:            return "KCPA_API_Session_Exit"
-        case .KCPA_API_Session_Error:           return "KCPA_API_Session_Error"
-        case .KCPA_API_Watch_Start:             return "KCPA_API_Watch_Start"
-        case .KCPA_API_Watch_Update:            return "KCPA_API_Watch_Update"
-        case .KCPA_API_Watch_Error:             return "KCPA_API_Watch_Error"
-        case .KCPA_API_Download_Complete:       return "KCPA_API_Download_Complete"
-        case .KCPA_API_Download_Delete:         return "KCPA_API_Download_Delete"
-        case .KCPA_API_Download_Error:          return "KCPA_API_Download_Error"
-//        case .KCPA_API_Activity:                return "KCPA_API_Activity"<= 이거 없음
-        default:                                return ""
-        }
-    }
-}
-
-public protocol KCPA_HttpAPIClientDelegate: NSObject {
-    
-    //MARK: required methods
-    
-    //TODO: [ ]reqParam to Decodable Struct(json)
-    //- (void)request:(KCPA_APIType)apiType didReceiveResponse:(nullable id)responseObject reqParams:(NSDictionary *)dicParams;
-    func request(
-        apiType: KCPA_APIType,
-        didReceiveError errCode: Int,
-        withMessage strErrMsg: String?,
-        reqParams dicParams: [String: Any]
-    )
-    
-    //Q. statusCode enum으로 안나눠도 되나?..
-    func request(
-        apiType: KCPA_APIType,
-        didReceiveResponse responseObject: [String: Any],//<= struct?
-        withMessage strErrMsg: String?,
-        reqParams: [String: Any]
-    )
-    
-    //MARK: optional methods
-    func networkStatusDidChanged(status: NetworkReachabilityManager.NetworkReachabilityStatus)
-    
-    func analyticsDebug(
-        apiType: KCPA_APIType,
-        statusCode: Int,
-        header dicHeader: [String: Any]
-    )
-}
-
-extension KCPA_HttpAPIClientDelegate {
-    public func networkStatusDidChanged(status: NetworkReachabilityManager.NetworkReachabilityStatus) {}
-}
 
 class KCPA_HttpAPIClient {
     
