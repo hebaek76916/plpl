@@ -1,0 +1,143 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
+// swift-module-flags: -target arm64-apple-ios16.4 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name temp1
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Alamofire
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+@_exported import temp1
+public protocol KCPA_HttpAPIClientDelegate : ObjectiveC.NSObject {
+  func request(apiType: temp1.KCPA_APIType, didReceiveError errCode: Swift.Int, withMessage strErrMsg: Swift.String?, reqParams dicParams: [Swift.String : Any])
+  func request(apiType: temp1.KCPA_APIType, didReceiveResponse responseObject: [Swift.String : Any], withMessage strErrMsg: Swift.String?, reqParams: [Swift.String : Any])
+  func networkStatusDidChanged(status: Alamofire.NetworkReachabilityManager.NetworkReachabilityStatus)
+  func analyticsDebug(apiType: temp1.KCPA_APIType, statusCode: Swift.Int, header dicHeader: [Swift.String : Any])
+}
+extension temp1.KCPA_HttpAPIClientDelegate {
+  public func networkStatusDidChanged(status: Alamofire.NetworkReachabilityManager.NetworkReachabilityStatus)
+}
+@objc @_inheritsConvenienceInitializers public class KCPA_Utils : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class Product : ObjectiveC.NSObject {
+  @objc final public let price: CoreFoundation.CGFloat
+  @objc final public let sweet: CoreFoundation.CGFloat
+  @objc final public let name: Swift.String
+  @objc override dynamic public init()
+  @objc public init(price: CoreFoundation.CGFloat, sweet: CoreFoundation.CGFloat, name: Swift.String)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class Fruit : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc public func printProduct(product: temp1.Product)
+  @objc deinit
+}
+public protocol KCPA_Datasource : AnyObject {
+  func KCPA_GetPlaybackPosition() -> Swift.Int
+  func KCPA_GetPlaybackBitrate() -> Swift.String
+}
+@_hasMissingDesignatedInitializers public class KCP_Analytics {
+  public enum KCPA_ServerType : Swift.Int {
+    case KCPA_PlatformiOS
+    case KCPA_PlatformtvOS
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public enum KCPA_SessionActionType : Swift.Int {
+    case KCPA_Session_SignIn
+    case KCPA_Session_SignOut
+    case KCPA_Session_SignExit
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public enum KCPA_PlayerStatus : Swift.Int {
+    case KCPA_PlayerBuffer
+    case KCPA_PlayerPlay
+    case KCPA_PlayerPause
+    case KCPA_PlayerSeek
+    case KCPA_PlayerStop
+    case KCPA_PlayerExit
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public enum KCPA_CastType : Swift.Int {
+    case KCPA_CastPlayer
+    case KCPA_CastAirPlay
+    case KCPA_CastGoogle
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  public enum KCPA_AplePlatform : Swift.Int {
+    case KCPA_PlatformiOS
+    case KCPA_PlatformtvOS
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+  @objc deinit
+}
+extension temp1.KCP_Analytics {
+  public func KCPA_InitSDK(serverType: temp1.KCP_Analytics.KCPA_ServerType, platformType: temp1.KCP_Analytics.KCPA_AplePlatform, userID: Swift.String, userPassword: Swift.String, serviceName: Swift.String, logEnabled: Swift.Bool)
+}
+public protocol KCPA_Delegate : AnyObject {
+  func authentificationInfoDidReceived()
+  func KCPA(apiName: Swift.String, didReceiveError errCode: Swift.Int, withMessage strErrMsg: Swift.String?, error: (any Swift.Error)?, reqParam dicParams: [Swift.String : Any])
+  func analyticsDebug(apiName: Swift.String, statusCode: Swift.Int, header: [Swift.String : Any])
+}
+public enum KCPA_APIType : Swift.Int {
+  case KCPA_API_Authenticate
+  case KCPA_API_Session_Start
+  case KCPA_API_Session_SignIn
+  case KCPA_API_Session_SignOut
+  case KCPA_API_Session_Exit
+  case KCPA_API_Session_Error
+  case KCPA_API_Watch_Start
+  case KCPA_API_Watch_Update
+  case KCPA_API_Watch_Error
+  case KCPA_API_Download_Complete
+  case KCPA_API_Download_Delete
+  case KCPA_API_Download_Error
+  case KCPA_API_Activity
+  public var name: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension temp1.KCP_Analytics.KCPA_ServerType : Swift.Equatable {}
+extension temp1.KCP_Analytics.KCPA_ServerType : Swift.Hashable {}
+extension temp1.KCP_Analytics.KCPA_ServerType : Swift.RawRepresentable {}
+extension temp1.KCP_Analytics.KCPA_SessionActionType : Swift.Equatable {}
+extension temp1.KCP_Analytics.KCPA_SessionActionType : Swift.Hashable {}
+extension temp1.KCP_Analytics.KCPA_SessionActionType : Swift.RawRepresentable {}
+extension temp1.KCP_Analytics.KCPA_PlayerStatus : Swift.Equatable {}
+extension temp1.KCP_Analytics.KCPA_PlayerStatus : Swift.Hashable {}
+extension temp1.KCP_Analytics.KCPA_PlayerStatus : Swift.RawRepresentable {}
+extension temp1.KCP_Analytics.KCPA_CastType : Swift.Equatable {}
+extension temp1.KCP_Analytics.KCPA_CastType : Swift.Hashable {}
+extension temp1.KCP_Analytics.KCPA_CastType : Swift.RawRepresentable {}
+extension temp1.KCP_Analytics.KCPA_AplePlatform : Swift.Equatable {}
+extension temp1.KCP_Analytics.KCPA_AplePlatform : Swift.Hashable {}
+extension temp1.KCP_Analytics.KCPA_AplePlatform : Swift.RawRepresentable {}
+extension temp1.KCPA_APIType : Swift.Equatable {}
+extension temp1.KCPA_APIType : Swift.Hashable {}
+extension temp1.KCPA_APIType : Swift.RawRepresentable {}

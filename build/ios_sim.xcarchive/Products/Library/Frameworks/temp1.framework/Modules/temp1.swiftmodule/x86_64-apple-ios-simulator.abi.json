@@ -1,0 +1,5275 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "temp1",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "temp1"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KCPA_HttpAPIClientDelegate",
+        "printedName": "KCPA_HttpAPIClientDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "request",
+            "printedName": "request(apiType:didReceiveError:withMessage:reqParams:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KCPA_APIType",
+                "printedName": "temp1.KCPA_APIType",
+                "usr": "s:5temp112KCPA_APITypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5temp126KCPA_HttpAPIClientDelegateP7request7apiType15didReceiveError11withMessage9reqParamsyAA0B8_APITypeO_SiSSSgSDySSypGtF",
+            "mangledName": "$s5temp126KCPA_HttpAPIClientDelegateP7request7apiType15didReceiveError11withMessage9reqParamsyAA0B8_APITypeO_SiSSSgSDySSypGtF",
+            "moduleName": "temp1",
+            "genericSig": "<τ_0_0 where τ_0_0 : temp1.KCPA_HttpAPIClientDelegate>",
+            "sugared_genericSig": "<Self where Self : temp1.KCPA_HttpAPIClientDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "request",
+            "printedName": "request(apiType:didReceiveResponse:withMessage:reqParams:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KCPA_APIType",
+                "printedName": "temp1.KCPA_APIType",
+                "usr": "s:5temp112KCPA_APITypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5temp126KCPA_HttpAPIClientDelegateP7request7apiType18didReceiveResponse11withMessage9reqParamsyAA0B8_APITypeO_SDySSypGSSSgAKtF",
+            "mangledName": "$s5temp126KCPA_HttpAPIClientDelegateP7request7apiType18didReceiveResponse11withMessage9reqParamsyAA0B8_APITypeO_SDySSypGSSSgAKtF",
+            "moduleName": "temp1",
+            "genericSig": "<τ_0_0 where τ_0_0 : temp1.KCPA_HttpAPIClientDelegate>",
+            "sugared_genericSig": "<Self where Self : temp1.KCPA_HttpAPIClientDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "networkStatusDidChanged",
+            "printedName": "networkStatusDidChanged(status:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkReachabilityStatus",
+                "printedName": "Alamofire.NetworkReachabilityManager.NetworkReachabilityStatus",
+                "usr": "s:9Alamofire26NetworkReachabilityManagerC0bC6StatusO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5temp126KCPA_HttpAPIClientDelegateP23networkStatusDidChanged6statusy9Alamofire26NetworkReachabilityManagerC0lmG0O_tF",
+            "mangledName": "$s5temp126KCPA_HttpAPIClientDelegateP23networkStatusDidChanged6statusy9Alamofire26NetworkReachabilityManagerC0lmG0O_tF",
+            "moduleName": "temp1",
+            "genericSig": "<τ_0_0 where τ_0_0 : temp1.KCPA_HttpAPIClientDelegate>",
+            "sugared_genericSig": "<Self where Self : temp1.KCPA_HttpAPIClientDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "analyticsDebug",
+            "printedName": "analyticsDebug(apiType:statusCode:header:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KCPA_APIType",
+                "printedName": "temp1.KCPA_APIType",
+                "usr": "s:5temp112KCPA_APITypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5temp126KCPA_HttpAPIClientDelegateP14analyticsDebug7apiType10statusCode6headeryAA0B8_APITypeO_SiSDySSypGtF",
+            "mangledName": "$s5temp126KCPA_HttpAPIClientDelegateP14analyticsDebug7apiType10statusCode6headeryAA0B8_APITypeO_SiSDySSypGtF",
+            "moduleName": "temp1",
+            "genericSig": "<τ_0_0 where τ_0_0 : temp1.KCPA_HttpAPIClientDelegate>",
+            "sugared_genericSig": "<Self where Self : temp1.KCPA_HttpAPIClientDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "networkStatusDidChanged",
+            "printedName": "networkStatusDidChanged(status:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NetworkReachabilityStatus",
+                "printedName": "Alamofire.NetworkReachabilityManager.NetworkReachabilityStatus",
+                "usr": "s:9Alamofire26NetworkReachabilityManagerC0bC6StatusO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5temp126KCPA_HttpAPIClientDelegatePAAE23networkStatusDidChanged6statusy9Alamofire26NetworkReachabilityManagerC0lmG0O_tF",
+            "mangledName": "$s5temp126KCPA_HttpAPIClientDelegatePAAE23networkStatusDidChanged6statusy9Alamofire26NetworkReachabilityManagerC0lmG0O_tF",
+            "moduleName": "temp1",
+            "genericSig": "<τ_0_0 where τ_0_0 : temp1.KCPA_HttpAPIClientDelegate>",
+            "sugared_genericSig": "<Self where Self : temp1.KCPA_HttpAPIClientDelegate>",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:5temp126KCPA_HttpAPIClientDelegateP",
+        "mangledName": "$s5temp126KCPA_HttpAPIClientDelegateP",
+        "moduleName": "temp1",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObject>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "temp1",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KCPA_Utils",
+        "printedName": "KCPA_Utils",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KCPA_Utils",
+                "printedName": "temp1.KCPA_Utils",
+                "usr": "c:@M@temp1@objc(cs)KCPA_Utils"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@temp1@objc(cs)KCPA_Utils(im)init",
+            "mangledName": "$s5temp110KCPA_UtilsCACycfc",
+            "moduleName": "temp1",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@temp1@objc(cs)KCPA_Utils",
+        "mangledName": "$s5temp110KCPA_UtilsC",
+        "moduleName": "temp1",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "temp1",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Product",
+        "printedName": "Product",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "price",
+            "printedName": "price",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@temp1@objc(cs)Product(py)price",
+            "mangledName": "$s5temp17ProductC5price12CoreGraphics7CGFloatVvp",
+            "moduleName": "temp1",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@temp1@objc(cs)Product(im)price",
+                "mangledName": "$s5temp17ProductC5price12CoreGraphics7CGFloatVvg",
+                "moduleName": "temp1",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sweet",
+            "printedName": "sweet",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@temp1@objc(cs)Product(py)sweet",
+            "mangledName": "$s5temp17ProductC5sweet12CoreGraphics7CGFloatVvp",
+            "moduleName": "temp1",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@temp1@objc(cs)Product(im)sweet",
+                "mangledName": "$s5temp17ProductC5sweet12CoreGraphics7CGFloatVvg",
+                "moduleName": "temp1",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@temp1@objc(cs)Product(py)name",
+            "mangledName": "$s5temp17ProductC4nameSSvp",
+            "moduleName": "temp1",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@temp1@objc(cs)Product(im)name",
+                "mangledName": "$s5temp17ProductC4nameSSvg",
+                "moduleName": "temp1",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Product",
+                "printedName": "temp1.Product",
+                "usr": "c:@M@temp1@objc(cs)Product"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@temp1@objc(cs)Product(im)init",
+            "mangledName": "$s5temp17ProductCACycfc",
+            "moduleName": "temp1",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(price:sweet:name:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Product",
+                "printedName": "temp1.Product",
+                "usr": "c:@M@temp1@objc(cs)Product"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@temp1@objc(cs)Product(im)initWithPrice:sweet:name:",
+            "mangledName": "$s5temp17ProductC5price5sweet4nameAC12CoreGraphics7CGFloatV_AISStcfc",
+            "moduleName": "temp1",
+            "objc_name": "initWithPrice:sweet:name:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@temp1@objc(cs)Product",
+        "mangledName": "$s5temp17ProductC",
+        "moduleName": "temp1",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Fruit",
+        "printedName": "Fruit",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Fruit",
+                "printedName": "temp1.Fruit",
+                "usr": "c:@M@temp1@objc(cs)Fruit"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@temp1@objc(cs)Fruit(im)init",
+            "mangledName": "$s5temp15FruitCACycfc",
+            "moduleName": "temp1",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "printProduct",
+            "printedName": "printProduct(product:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Product",
+                "printedName": "temp1.Product",
+                "usr": "c:@M@temp1@objc(cs)Product"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@temp1@objc(cs)Fruit(im)printProductWithProduct:",
+            "mangledName": "$s5temp15FruitC12printProduct7productyAA0D0C_tF",
+            "moduleName": "temp1",
+            "objc_name": "printProductWithProduct:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@temp1@objc(cs)Fruit",
+        "mangledName": "$s5temp15FruitC",
+        "moduleName": "temp1",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "temp1",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "temp1",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "temp1",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "temp1",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "temp1",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KCPA_Datasource",
+        "printedName": "KCPA_Datasource",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "KCPA_GetPlaybackPosition",
+            "printedName": "KCPA_GetPlaybackPosition()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5temp115KCPA_DatasourceP0B20_GetPlaybackPositionSiyF",
+            "mangledName": "$s5temp115KCPA_DatasourceP0B20_GetPlaybackPositionSiyF",
+            "moduleName": "temp1",
+            "genericSig": "<τ_0_0 where τ_0_0 : temp1.KCPA_Datasource>",
+            "sugared_genericSig": "<Self where Self : temp1.KCPA_Datasource>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "KCPA_GetPlaybackBitrate",
+            "printedName": "KCPA_GetPlaybackBitrate()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5temp115KCPA_DatasourceP0B19_GetPlaybackBitrateSSyF",
+            "mangledName": "$s5temp115KCPA_DatasourceP0B19_GetPlaybackBitrateSSyF",
+            "moduleName": "temp1",
+            "genericSig": "<τ_0_0 where τ_0_0 : temp1.KCPA_Datasource>",
+            "sugared_genericSig": "<Self where Self : temp1.KCPA_Datasource>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:5temp115KCPA_DatasourceP",
+        "mangledName": "$s5temp115KCPA_DatasourceP",
+        "moduleName": "temp1",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "temp1",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "temp1"
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "temp1",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "temp1"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KCP_Analytics",
+        "printedName": "KCP_Analytics",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "KCPA_ServerType",
+            "printedName": "KCPA_ServerType",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "KCPA_PlatformiOS",
+                "printedName": "KCPA_PlatformiOS",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(temp1.KCP_Analytics.KCPA_ServerType.Type) -> temp1.KCP_Analytics.KCPA_ServerType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KCPA_ServerType",
+                        "printedName": "temp1.KCP_Analytics.KCPA_ServerType",
+                        "usr": "s:5temp113KCP_AnalyticsC15KCPA_ServerTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "temp1.KCP_Analytics.KCPA_ServerType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "KCPA_ServerType",
+                            "printedName": "temp1.KCP_Analytics.KCPA_ServerType",
+                            "usr": "s:5temp113KCP_AnalyticsC15KCPA_ServerTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:5temp113KCP_AnalyticsC15KCPA_ServerTypeO0D12_PlatformiOSyA2EmF",
+                "mangledName": "$s5temp113KCP_AnalyticsC15KCPA_ServerTypeO0D12_PlatformiOSyA2EmF",
+                "moduleName": "temp1"
+              },
+              {
+                "kind": "Var",
+                "name": "KCPA_PlatformtvOS",
+                "printedName": "KCPA_PlatformtvOS",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(temp1.KCP_Analytics.KCPA_ServerType.Type) -> temp1.KCP_Analytics.KCPA_ServerType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KCPA_ServerType",
+                        "printedName": "temp1.KCP_Analytics.KCPA_ServerType",
+                        "usr": "s:5temp113KCP_AnalyticsC15KCPA_ServerTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "temp1.KCP_Analytics.KCPA_ServerType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "KCPA_ServerType",
+                            "printedName": "temp1.KCP_Analytics.KCPA_ServerType",
+                            "usr": "s:5temp113KCP_AnalyticsC15KCPA_ServerTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:5temp113KCP_AnalyticsC15KCPA_ServerTypeO0D13_PlatformtvOSyA2EmF",
+                "mangledName": "$s5temp113KCP_AnalyticsC15KCPA_ServerTypeO0D13_PlatformtvOSyA2EmF",
+                "moduleName": "temp1"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "temp1.KCP_Analytics.KCPA_ServerType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KCPA_ServerType",
+                        "printedName": "temp1.KCP_Analytics.KCPA_ServerType",
+                        "usr": "s:5temp113KCP_AnalyticsC15KCPA_ServerTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:5temp113KCP_AnalyticsC15KCPA_ServerTypeO8rawValueAESgSi_tcfc",
+                "mangledName": "$s5temp113KCP_AnalyticsC15KCPA_ServerTypeO8rawValueAESgSi_tcfc",
+                "moduleName": "temp1",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:5temp113KCP_AnalyticsC15KCPA_ServerTypeO8rawValueSivp",
+                "mangledName": "$s5temp113KCP_AnalyticsC15KCPA_ServerTypeO8rawValueSivp",
+                "moduleName": "temp1",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:5temp113KCP_AnalyticsC15KCPA_ServerTypeO8rawValueSivg",
+                    "mangledName": "$s5temp113KCP_AnalyticsC15KCPA_ServerTypeO8rawValueSivg",
+                    "moduleName": "temp1",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:5temp113KCP_AnalyticsC15KCPA_ServerTypeO",
+            "mangledName": "$s5temp113KCP_AnalyticsC15KCPA_ServerTypeO",
+            "moduleName": "temp1",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "enumRawTypeName": "Int",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "KCPA_SessionActionType",
+            "printedName": "KCPA_SessionActionType",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "KCPA_Session_SignIn",
+                "printedName": "KCPA_Session_SignIn",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(temp1.KCP_Analytics.KCPA_SessionActionType.Type) -> temp1.KCP_Analytics.KCPA_SessionActionType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KCPA_SessionActionType",
+                        "printedName": "temp1.KCP_Analytics.KCPA_SessionActionType",
+                        "usr": "s:5temp113KCP_AnalyticsC22KCPA_SessionActionTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "temp1.KCP_Analytics.KCPA_SessionActionType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "KCPA_SessionActionType",
+                            "printedName": "temp1.KCP_Analytics.KCPA_SessionActionType",
+                            "usr": "s:5temp113KCP_AnalyticsC22KCPA_SessionActionTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:5temp113KCP_AnalyticsC22KCPA_SessionActionTypeO0d1_E7_SignInyA2EmF",
+                "mangledName": "$s5temp113KCP_AnalyticsC22KCPA_SessionActionTypeO0d1_E7_SignInyA2EmF",
+                "moduleName": "temp1"
+              },
+              {
+                "kind": "Var",
+                "name": "KCPA_Session_SignOut",
+                "printedName": "KCPA_Session_SignOut",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(temp1.KCP_Analytics.KCPA_SessionActionType.Type) -> temp1.KCP_Analytics.KCPA_SessionActionType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KCPA_SessionActionType",
+                        "printedName": "temp1.KCP_Analytics.KCPA_SessionActionType",
+                        "usr": "s:5temp113KCP_AnalyticsC22KCPA_SessionActionTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "temp1.KCP_Analytics.KCPA_SessionActionType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "KCPA_SessionActionType",
+                            "printedName": "temp1.KCP_Analytics.KCPA_SessionActionType",
+                            "usr": "s:5temp113KCP_AnalyticsC22KCPA_SessionActionTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:5temp113KCP_AnalyticsC22KCPA_SessionActionTypeO0d1_E8_SignOutyA2EmF",
+                "mangledName": "$s5temp113KCP_AnalyticsC22KCPA_SessionActionTypeO0d1_E8_SignOutyA2EmF",
+                "moduleName": "temp1"
+              },
+              {
+                "kind": "Var",
+                "name": "KCPA_Session_SignExit",
+                "printedName": "KCPA_Session_SignExit",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(temp1.KCP_Analytics.KCPA_SessionActionType.Type) -> temp1.KCP_Analytics.KCPA_SessionActionType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KCPA_SessionActionType",
+                        "printedName": "temp1.KCP_Analytics.KCPA_SessionActionType",
+                        "usr": "s:5temp113KCP_AnalyticsC22KCPA_SessionActionTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "temp1.KCP_Analytics.KCPA_SessionActionType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "KCPA_SessionActionType",
+                            "printedName": "temp1.KCP_Analytics.KCPA_SessionActionType",
+                            "usr": "s:5temp113KCP_AnalyticsC22KCPA_SessionActionTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:5temp113KCP_AnalyticsC22KCPA_SessionActionTypeO0d1_E9_SignExityA2EmF",
+                "mangledName": "$s5temp113KCP_AnalyticsC22KCPA_SessionActionTypeO0d1_E9_SignExityA2EmF",
+                "moduleName": "temp1"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "temp1.KCP_Analytics.KCPA_SessionActionType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KCPA_SessionActionType",
+                        "printedName": "temp1.KCP_Analytics.KCPA_SessionActionType",
+                        "usr": "s:5temp113KCP_AnalyticsC22KCPA_SessionActionTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:5temp113KCP_AnalyticsC22KCPA_SessionActionTypeO8rawValueAESgSi_tcfc",
+                "mangledName": "$s5temp113KCP_AnalyticsC22KCPA_SessionActionTypeO8rawValueAESgSi_tcfc",
+                "moduleName": "temp1",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:5temp113KCP_AnalyticsC22KCPA_SessionActionTypeO8rawValueSivp",
+                "mangledName": "$s5temp113KCP_AnalyticsC22KCPA_SessionActionTypeO8rawValueSivp",
+                "moduleName": "temp1",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:5temp113KCP_AnalyticsC22KCPA_SessionActionTypeO8rawValueSivg",
+                    "mangledName": "$s5temp113KCP_AnalyticsC22KCPA_SessionActionTypeO8rawValueSivg",
+                    "moduleName": "temp1",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:5temp113KCP_AnalyticsC22KCPA_SessionActionTypeO",
+            "mangledName": "$s5temp113KCP_AnalyticsC22KCPA_SessionActionTypeO",
+            "moduleName": "temp1",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "Int",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "KCPA_PlayerStatus",
+            "printedName": "KCPA_PlayerStatus",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "KCPA_PlayerBuffer",
+                "printedName": "KCPA_PlayerBuffer",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(temp1.KCP_Analytics.KCPA_PlayerStatus.Type) -> temp1.KCP_Analytics.KCPA_PlayerStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KCPA_PlayerStatus",
+                        "printedName": "temp1.KCP_Analytics.KCPA_PlayerStatus",
+                        "usr": "s:5temp113KCP_AnalyticsC17KCPA_PlayerStatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "temp1.KCP_Analytics.KCPA_PlayerStatus.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "KCPA_PlayerStatus",
+                            "printedName": "temp1.KCP_Analytics.KCPA_PlayerStatus",
+                            "usr": "s:5temp113KCP_AnalyticsC17KCPA_PlayerStatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:5temp113KCP_AnalyticsC17KCPA_PlayerStatusO0d1_E6BufferyA2EmF",
+                "mangledName": "$s5temp113KCP_AnalyticsC17KCPA_PlayerStatusO0d1_E6BufferyA2EmF",
+                "moduleName": "temp1"
+              },
+              {
+                "kind": "Var",
+                "name": "KCPA_PlayerPlay",
+                "printedName": "KCPA_PlayerPlay",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(temp1.KCP_Analytics.KCPA_PlayerStatus.Type) -> temp1.KCP_Analytics.KCPA_PlayerStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KCPA_PlayerStatus",
+                        "printedName": "temp1.KCP_Analytics.KCPA_PlayerStatus",
+                        "usr": "s:5temp113KCP_AnalyticsC17KCPA_PlayerStatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "temp1.KCP_Analytics.KCPA_PlayerStatus.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "KCPA_PlayerStatus",
+                            "printedName": "temp1.KCP_Analytics.KCPA_PlayerStatus",
+                            "usr": "s:5temp113KCP_AnalyticsC17KCPA_PlayerStatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:5temp113KCP_AnalyticsC17KCPA_PlayerStatusO0d1_E4PlayyA2EmF",
+                "mangledName": "$s5temp113KCP_AnalyticsC17KCPA_PlayerStatusO0d1_E4PlayyA2EmF",
+                "moduleName": "temp1"
+              },
+              {
+                "kind": "Var",
+                "name": "KCPA_PlayerPause",
+                "printedName": "KCPA_PlayerPause",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(temp1.KCP_Analytics.KCPA_PlayerStatus.Type) -> temp1.KCP_Analytics.KCPA_PlayerStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KCPA_PlayerStatus",
+                        "printedName": "temp1.KCP_Analytics.KCPA_PlayerStatus",
+                        "usr": "s:5temp113KCP_AnalyticsC17KCPA_PlayerStatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "temp1.KCP_Analytics.KCPA_PlayerStatus.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "KCPA_PlayerStatus",
+                            "printedName": "temp1.KCP_Analytics.KCPA_PlayerStatus",
+                            "usr": "s:5temp113KCP_AnalyticsC17KCPA_PlayerStatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:5temp113KCP_AnalyticsC17KCPA_PlayerStatusO0d1_E5PauseyA2EmF",
+                "mangledName": "$s5temp113KCP_AnalyticsC17KCPA_PlayerStatusO0d1_E5PauseyA2EmF",
+                "moduleName": "temp1"
+              },
+              {
+                "kind": "Var",
+                "name": "KCPA_PlayerSeek",
+                "printedName": "KCPA_PlayerSeek",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(temp1.KCP_Analytics.KCPA_PlayerStatus.Type) -> temp1.KCP_Analytics.KCPA_PlayerStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KCPA_PlayerStatus",
+                        "printedName": "temp1.KCP_Analytics.KCPA_PlayerStatus",
+                        "usr": "s:5temp113KCP_AnalyticsC17KCPA_PlayerStatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "temp1.KCP_Analytics.KCPA_PlayerStatus.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "KCPA_PlayerStatus",
+                            "printedName": "temp1.KCP_Analytics.KCPA_PlayerStatus",
+                            "usr": "s:5temp113KCP_AnalyticsC17KCPA_PlayerStatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:5temp113KCP_AnalyticsC17KCPA_PlayerStatusO0d1_E4SeekyA2EmF",
+                "mangledName": "$s5temp113KCP_AnalyticsC17KCPA_PlayerStatusO0d1_E4SeekyA2EmF",
+                "moduleName": "temp1"
+              },
+              {
+                "kind": "Var",
+                "name": "KCPA_PlayerStop",
+                "printedName": "KCPA_PlayerStop",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(temp1.KCP_Analytics.KCPA_PlayerStatus.Type) -> temp1.KCP_Analytics.KCPA_PlayerStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KCPA_PlayerStatus",
+                        "printedName": "temp1.KCP_Analytics.KCPA_PlayerStatus",
+                        "usr": "s:5temp113KCP_AnalyticsC17KCPA_PlayerStatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "temp1.KCP_Analytics.KCPA_PlayerStatus.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "KCPA_PlayerStatus",
+                            "printedName": "temp1.KCP_Analytics.KCPA_PlayerStatus",
+                            "usr": "s:5temp113KCP_AnalyticsC17KCPA_PlayerStatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:5temp113KCP_AnalyticsC17KCPA_PlayerStatusO0d1_E4StopyA2EmF",
+                "mangledName": "$s5temp113KCP_AnalyticsC17KCPA_PlayerStatusO0d1_E4StopyA2EmF",
+                "moduleName": "temp1"
+              },
+              {
+                "kind": "Var",
+                "name": "KCPA_PlayerExit",
+                "printedName": "KCPA_PlayerExit",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(temp1.KCP_Analytics.KCPA_PlayerStatus.Type) -> temp1.KCP_Analytics.KCPA_PlayerStatus",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KCPA_PlayerStatus",
+                        "printedName": "temp1.KCP_Analytics.KCPA_PlayerStatus",
+                        "usr": "s:5temp113KCP_AnalyticsC17KCPA_PlayerStatusO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "temp1.KCP_Analytics.KCPA_PlayerStatus.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "KCPA_PlayerStatus",
+                            "printedName": "temp1.KCP_Analytics.KCPA_PlayerStatus",
+                            "usr": "s:5temp113KCP_AnalyticsC17KCPA_PlayerStatusO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:5temp113KCP_AnalyticsC17KCPA_PlayerStatusO0d1_E4ExityA2EmF",
+                "mangledName": "$s5temp113KCP_AnalyticsC17KCPA_PlayerStatusO0d1_E4ExityA2EmF",
+                "moduleName": "temp1"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "temp1.KCP_Analytics.KCPA_PlayerStatus?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KCPA_PlayerStatus",
+                        "printedName": "temp1.KCP_Analytics.KCPA_PlayerStatus",
+                        "usr": "s:5temp113KCP_AnalyticsC17KCPA_PlayerStatusO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:5temp113KCP_AnalyticsC17KCPA_PlayerStatusO8rawValueAESgSi_tcfc",
+                "mangledName": "$s5temp113KCP_AnalyticsC17KCPA_PlayerStatusO8rawValueAESgSi_tcfc",
+                "moduleName": "temp1",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:5temp113KCP_AnalyticsC17KCPA_PlayerStatusO8rawValueSivp",
+                "mangledName": "$s5temp113KCP_AnalyticsC17KCPA_PlayerStatusO8rawValueSivp",
+                "moduleName": "temp1",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:5temp113KCP_AnalyticsC17KCPA_PlayerStatusO8rawValueSivg",
+                    "mangledName": "$s5temp113KCP_AnalyticsC17KCPA_PlayerStatusO8rawValueSivg",
+                    "moduleName": "temp1",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:5temp113KCP_AnalyticsC17KCPA_PlayerStatusO",
+            "mangledName": "$s5temp113KCP_AnalyticsC17KCPA_PlayerStatusO",
+            "moduleName": "temp1",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "Int",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "KCPA_CastType",
+            "printedName": "KCPA_CastType",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "KCPA_CastPlayer",
+                "printedName": "KCPA_CastPlayer",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(temp1.KCP_Analytics.KCPA_CastType.Type) -> temp1.KCP_Analytics.KCPA_CastType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KCPA_CastType",
+                        "printedName": "temp1.KCP_Analytics.KCPA_CastType",
+                        "usr": "s:5temp113KCP_AnalyticsC13KCPA_CastTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "temp1.KCP_Analytics.KCPA_CastType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "KCPA_CastType",
+                            "printedName": "temp1.KCP_Analytics.KCPA_CastType",
+                            "usr": "s:5temp113KCP_AnalyticsC13KCPA_CastTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:5temp113KCP_AnalyticsC13KCPA_CastTypeO0d1_E6PlayeryA2EmF",
+                "mangledName": "$s5temp113KCP_AnalyticsC13KCPA_CastTypeO0d1_E6PlayeryA2EmF",
+                "moduleName": "temp1"
+              },
+              {
+                "kind": "Var",
+                "name": "KCPA_CastAirPlay",
+                "printedName": "KCPA_CastAirPlay",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(temp1.KCP_Analytics.KCPA_CastType.Type) -> temp1.KCP_Analytics.KCPA_CastType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KCPA_CastType",
+                        "printedName": "temp1.KCP_Analytics.KCPA_CastType",
+                        "usr": "s:5temp113KCP_AnalyticsC13KCPA_CastTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "temp1.KCP_Analytics.KCPA_CastType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "KCPA_CastType",
+                            "printedName": "temp1.KCP_Analytics.KCPA_CastType",
+                            "usr": "s:5temp113KCP_AnalyticsC13KCPA_CastTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:5temp113KCP_AnalyticsC13KCPA_CastTypeO0d1_E7AirPlayyA2EmF",
+                "mangledName": "$s5temp113KCP_AnalyticsC13KCPA_CastTypeO0d1_E7AirPlayyA2EmF",
+                "moduleName": "temp1"
+              },
+              {
+                "kind": "Var",
+                "name": "KCPA_CastGoogle",
+                "printedName": "KCPA_CastGoogle",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(temp1.KCP_Analytics.KCPA_CastType.Type) -> temp1.KCP_Analytics.KCPA_CastType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KCPA_CastType",
+                        "printedName": "temp1.KCP_Analytics.KCPA_CastType",
+                        "usr": "s:5temp113KCP_AnalyticsC13KCPA_CastTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "temp1.KCP_Analytics.KCPA_CastType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "KCPA_CastType",
+                            "printedName": "temp1.KCP_Analytics.KCPA_CastType",
+                            "usr": "s:5temp113KCP_AnalyticsC13KCPA_CastTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:5temp113KCP_AnalyticsC13KCPA_CastTypeO0d1_E6GoogleyA2EmF",
+                "mangledName": "$s5temp113KCP_AnalyticsC13KCPA_CastTypeO0d1_E6GoogleyA2EmF",
+                "moduleName": "temp1"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "temp1.KCP_Analytics.KCPA_CastType?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KCPA_CastType",
+                        "printedName": "temp1.KCP_Analytics.KCPA_CastType",
+                        "usr": "s:5temp113KCP_AnalyticsC13KCPA_CastTypeO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:5temp113KCP_AnalyticsC13KCPA_CastTypeO8rawValueAESgSi_tcfc",
+                "mangledName": "$s5temp113KCP_AnalyticsC13KCPA_CastTypeO8rawValueAESgSi_tcfc",
+                "moduleName": "temp1",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:5temp113KCP_AnalyticsC13KCPA_CastTypeO8rawValueSivp",
+                "mangledName": "$s5temp113KCP_AnalyticsC13KCPA_CastTypeO8rawValueSivp",
+                "moduleName": "temp1",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:5temp113KCP_AnalyticsC13KCPA_CastTypeO8rawValueSivg",
+                    "mangledName": "$s5temp113KCP_AnalyticsC13KCPA_CastTypeO8rawValueSivg",
+                    "moduleName": "temp1",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:5temp113KCP_AnalyticsC13KCPA_CastTypeO",
+            "mangledName": "$s5temp113KCP_AnalyticsC13KCPA_CastTypeO",
+            "moduleName": "temp1",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "Int",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "KCPA_AplePlatform",
+            "printedName": "KCPA_AplePlatform",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "KCPA_PlatformiOS",
+                "printedName": "KCPA_PlatformiOS",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(temp1.KCP_Analytics.KCPA_AplePlatform.Type) -> temp1.KCP_Analytics.KCPA_AplePlatform",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KCPA_AplePlatform",
+                        "printedName": "temp1.KCP_Analytics.KCPA_AplePlatform",
+                        "usr": "s:5temp113KCP_AnalyticsC17KCPA_AplePlatformO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "temp1.KCP_Analytics.KCPA_AplePlatform.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "KCPA_AplePlatform",
+                            "printedName": "temp1.KCP_Analytics.KCPA_AplePlatform",
+                            "usr": "s:5temp113KCP_AnalyticsC17KCPA_AplePlatformO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:5temp113KCP_AnalyticsC17KCPA_AplePlatformO0D12_PlatformiOSyA2EmF",
+                "mangledName": "$s5temp113KCP_AnalyticsC17KCPA_AplePlatformO0D12_PlatformiOSyA2EmF",
+                "moduleName": "temp1"
+              },
+              {
+                "kind": "Var",
+                "name": "KCPA_PlatformtvOS",
+                "printedName": "KCPA_PlatformtvOS",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(temp1.KCP_Analytics.KCPA_AplePlatform.Type) -> temp1.KCP_Analytics.KCPA_AplePlatform",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KCPA_AplePlatform",
+                        "printedName": "temp1.KCP_Analytics.KCPA_AplePlatform",
+                        "usr": "s:5temp113KCP_AnalyticsC17KCPA_AplePlatformO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "temp1.KCP_Analytics.KCPA_AplePlatform.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "KCPA_AplePlatform",
+                            "printedName": "temp1.KCP_Analytics.KCPA_AplePlatform",
+                            "usr": "s:5temp113KCP_AnalyticsC17KCPA_AplePlatformO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:5temp113KCP_AnalyticsC17KCPA_AplePlatformO0D13_PlatformtvOSyA2EmF",
+                "mangledName": "$s5temp113KCP_AnalyticsC17KCPA_AplePlatformO0D13_PlatformtvOSyA2EmF",
+                "moduleName": "temp1"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "temp1.KCP_Analytics.KCPA_AplePlatform?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KCPA_AplePlatform",
+                        "printedName": "temp1.KCP_Analytics.KCPA_AplePlatform",
+                        "usr": "s:5temp113KCP_AnalyticsC17KCPA_AplePlatformO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:5temp113KCP_AnalyticsC17KCPA_AplePlatformO8rawValueAESgSi_tcfc",
+                "mangledName": "$s5temp113KCP_AnalyticsC17KCPA_AplePlatformO8rawValueAESgSi_tcfc",
+                "moduleName": "temp1",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:5temp113KCP_AnalyticsC17KCPA_AplePlatformO8rawValueSivp",
+                "mangledName": "$s5temp113KCP_AnalyticsC17KCPA_AplePlatformO8rawValueSivp",
+                "moduleName": "temp1",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:5temp113KCP_AnalyticsC17KCPA_AplePlatformO8rawValueSivg",
+                    "mangledName": "$s5temp113KCP_AnalyticsC17KCPA_AplePlatformO8rawValueSivg",
+                    "moduleName": "temp1",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:5temp113KCP_AnalyticsC17KCPA_AplePlatformO",
+            "mangledName": "$s5temp113KCP_AnalyticsC17KCPA_AplePlatformO",
+            "moduleName": "temp1",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "enumRawTypeName": "Int",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "request",
+            "printedName": "request(apiType:didReceiveError:withMessage:reqParams:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KCPA_APIType",
+                "printedName": "temp1.KCPA_APIType",
+                "usr": "s:5temp112KCPA_APITypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5temp113KCP_AnalyticsC7request7apiType15didReceiveError11withMessage9reqParamsyAA12KCPA_APITypeO_SiSSSDySSypGtF",
+            "mangledName": "$s5temp113KCP_AnalyticsC7request7apiType15didReceiveError11withMessage9reqParamsyAA12KCPA_APITypeO_SiSSSDySSypGtF",
+            "moduleName": "temp1",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "KCPA_InitSDK",
+            "printedName": "KCPA_InitSDK(serverType:platformType:userID:userPassword:serviceName:logEnabled:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KCPA_ServerType",
+                "printedName": "temp1.KCP_Analytics.KCPA_ServerType",
+                "usr": "s:5temp113KCP_AnalyticsC15KCPA_ServerTypeO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "KCPA_AplePlatform",
+                "printedName": "temp1.KCP_Analytics.KCPA_AplePlatform",
+                "usr": "s:5temp113KCP_AnalyticsC17KCPA_AplePlatformO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5temp113KCP_AnalyticsC12KCPA_InitSDK10serverType08platformH06userID0J8Password11serviceName10logEnabledyAC0d7_ServerH0O_AC0D13_AplePlatformOS3SSbtF",
+            "mangledName": "$s5temp113KCP_AnalyticsC12KCPA_InitSDK10serverType08platformH06userID0J8Password11serviceName10logEnabledyAC0d7_ServerH0O_AC0D13_AplePlatformOS3SSbtF",
+            "moduleName": "temp1",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:5temp113KCP_AnalyticsC",
+        "mangledName": "$s5temp113KCP_AnalyticsC",
+        "moduleName": "temp1",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "temp1",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "temp1",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KCPA_Delegate",
+        "printedName": "KCPA_Delegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "authentificationInfoDidReceived",
+            "printedName": "authentificationInfoDidReceived()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5temp113KCPA_DelegateP31authentificationInfoDidReceivedyyF",
+            "mangledName": "$s5temp113KCPA_DelegateP31authentificationInfoDidReceivedyyF",
+            "moduleName": "temp1",
+            "genericSig": "<τ_0_0 where τ_0_0 : temp1.KCPA_Delegate>",
+            "sugared_genericSig": "<Self where Self : temp1.KCPA_Delegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "KCPA",
+            "printedName": "KCPA(apiName:didReceiveError:withMessage:error:reqParam:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Error?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5temp113KCPA_DelegateP0B07apiName15didReceiveError11withMessage5error8reqParamySS_SiSSSgs0H0_pSgSDySSypGtF",
+            "mangledName": "$s5temp113KCPA_DelegateP0B07apiName15didReceiveError11withMessage5error8reqParamySS_SiSSSgs0H0_pSgSDySSypGtF",
+            "moduleName": "temp1",
+            "genericSig": "<τ_0_0 where τ_0_0 : temp1.KCPA_Delegate>",
+            "sugared_genericSig": "<Self where Self : temp1.KCPA_Delegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "analyticsDebug",
+            "printedName": "analyticsDebug(apiName:statusCode:header:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:5temp113KCPA_DelegateP14analyticsDebug7apiName10statusCode6headerySS_SiSDySSypGtF",
+            "mangledName": "$s5temp113KCPA_DelegateP14analyticsDebug7apiName10statusCode6headerySS_SiSDySSypGtF",
+            "moduleName": "temp1",
+            "genericSig": "<τ_0_0 where τ_0_0 : temp1.KCPA_Delegate>",
+            "sugared_genericSig": "<Self where Self : temp1.KCPA_Delegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:5temp113KCPA_DelegateP",
+        "mangledName": "$s5temp113KCPA_DelegateP",
+        "moduleName": "temp1",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "temp1",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KCPA_APIType",
+        "printedName": "KCPA_APIType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "KCPA_API_Authenticate",
+            "printedName": "KCPA_API_Authenticate",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(temp1.KCPA_APIType.Type) -> temp1.KCPA_APIType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KCPA_APIType",
+                    "printedName": "temp1.KCPA_APIType",
+                    "usr": "s:5temp112KCPA_APITypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "temp1.KCPA_APIType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KCPA_APIType",
+                        "printedName": "temp1.KCPA_APIType",
+                        "usr": "s:5temp112KCPA_APITypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5temp112KCPA_APITypeO0B17_API_AuthenticateyA2CmF",
+            "mangledName": "$s5temp112KCPA_APITypeO0B17_API_AuthenticateyA2CmF",
+            "moduleName": "temp1"
+          },
+          {
+            "kind": "Var",
+            "name": "KCPA_API_Session_Start",
+            "printedName": "KCPA_API_Session_Start",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(temp1.KCPA_APIType.Type) -> temp1.KCPA_APIType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KCPA_APIType",
+                    "printedName": "temp1.KCPA_APIType",
+                    "usr": "s:5temp112KCPA_APITypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "temp1.KCPA_APIType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KCPA_APIType",
+                        "printedName": "temp1.KCPA_APIType",
+                        "usr": "s:5temp112KCPA_APITypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5temp112KCPA_APITypeO0B18_API_Session_StartyA2CmF",
+            "mangledName": "$s5temp112KCPA_APITypeO0B18_API_Session_StartyA2CmF",
+            "moduleName": "temp1"
+          },
+          {
+            "kind": "Var",
+            "name": "KCPA_API_Session_SignIn",
+            "printedName": "KCPA_API_Session_SignIn",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(temp1.KCPA_APIType.Type) -> temp1.KCPA_APIType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KCPA_APIType",
+                    "printedName": "temp1.KCPA_APIType",
+                    "usr": "s:5temp112KCPA_APITypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "temp1.KCPA_APIType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KCPA_APIType",
+                        "printedName": "temp1.KCPA_APIType",
+                        "usr": "s:5temp112KCPA_APITypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5temp112KCPA_APITypeO0B19_API_Session_SignInyA2CmF",
+            "mangledName": "$s5temp112KCPA_APITypeO0B19_API_Session_SignInyA2CmF",
+            "moduleName": "temp1"
+          },
+          {
+            "kind": "Var",
+            "name": "KCPA_API_Session_SignOut",
+            "printedName": "KCPA_API_Session_SignOut",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(temp1.KCPA_APIType.Type) -> temp1.KCPA_APIType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KCPA_APIType",
+                    "printedName": "temp1.KCPA_APIType",
+                    "usr": "s:5temp112KCPA_APITypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "temp1.KCPA_APIType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KCPA_APIType",
+                        "printedName": "temp1.KCPA_APIType",
+                        "usr": "s:5temp112KCPA_APITypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5temp112KCPA_APITypeO0B20_API_Session_SignOutyA2CmF",
+            "mangledName": "$s5temp112KCPA_APITypeO0B20_API_Session_SignOutyA2CmF",
+            "moduleName": "temp1"
+          },
+          {
+            "kind": "Var",
+            "name": "KCPA_API_Session_Exit",
+            "printedName": "KCPA_API_Session_Exit",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(temp1.KCPA_APIType.Type) -> temp1.KCPA_APIType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KCPA_APIType",
+                    "printedName": "temp1.KCPA_APIType",
+                    "usr": "s:5temp112KCPA_APITypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "temp1.KCPA_APIType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KCPA_APIType",
+                        "printedName": "temp1.KCPA_APIType",
+                        "usr": "s:5temp112KCPA_APITypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5temp112KCPA_APITypeO0B17_API_Session_ExityA2CmF",
+            "mangledName": "$s5temp112KCPA_APITypeO0B17_API_Session_ExityA2CmF",
+            "moduleName": "temp1"
+          },
+          {
+            "kind": "Var",
+            "name": "KCPA_API_Session_Error",
+            "printedName": "KCPA_API_Session_Error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(temp1.KCPA_APIType.Type) -> temp1.KCPA_APIType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KCPA_APIType",
+                    "printedName": "temp1.KCPA_APIType",
+                    "usr": "s:5temp112KCPA_APITypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "temp1.KCPA_APIType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KCPA_APIType",
+                        "printedName": "temp1.KCPA_APIType",
+                        "usr": "s:5temp112KCPA_APITypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5temp112KCPA_APITypeO0B18_API_Session_ErroryA2CmF",
+            "mangledName": "$s5temp112KCPA_APITypeO0B18_API_Session_ErroryA2CmF",
+            "moduleName": "temp1"
+          },
+          {
+            "kind": "Var",
+            "name": "KCPA_API_Watch_Start",
+            "printedName": "KCPA_API_Watch_Start",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(temp1.KCPA_APIType.Type) -> temp1.KCPA_APIType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KCPA_APIType",
+                    "printedName": "temp1.KCPA_APIType",
+                    "usr": "s:5temp112KCPA_APITypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "temp1.KCPA_APIType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KCPA_APIType",
+                        "printedName": "temp1.KCPA_APIType",
+                        "usr": "s:5temp112KCPA_APITypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5temp112KCPA_APITypeO0B16_API_Watch_StartyA2CmF",
+            "mangledName": "$s5temp112KCPA_APITypeO0B16_API_Watch_StartyA2CmF",
+            "moduleName": "temp1"
+          },
+          {
+            "kind": "Var",
+            "name": "KCPA_API_Watch_Update",
+            "printedName": "KCPA_API_Watch_Update",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(temp1.KCPA_APIType.Type) -> temp1.KCPA_APIType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KCPA_APIType",
+                    "printedName": "temp1.KCPA_APIType",
+                    "usr": "s:5temp112KCPA_APITypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "temp1.KCPA_APIType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KCPA_APIType",
+                        "printedName": "temp1.KCPA_APIType",
+                        "usr": "s:5temp112KCPA_APITypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5temp112KCPA_APITypeO0B17_API_Watch_UpdateyA2CmF",
+            "mangledName": "$s5temp112KCPA_APITypeO0B17_API_Watch_UpdateyA2CmF",
+            "moduleName": "temp1"
+          },
+          {
+            "kind": "Var",
+            "name": "KCPA_API_Watch_Error",
+            "printedName": "KCPA_API_Watch_Error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(temp1.KCPA_APIType.Type) -> temp1.KCPA_APIType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KCPA_APIType",
+                    "printedName": "temp1.KCPA_APIType",
+                    "usr": "s:5temp112KCPA_APITypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "temp1.KCPA_APIType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KCPA_APIType",
+                        "printedName": "temp1.KCPA_APIType",
+                        "usr": "s:5temp112KCPA_APITypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5temp112KCPA_APITypeO0B16_API_Watch_ErroryA2CmF",
+            "mangledName": "$s5temp112KCPA_APITypeO0B16_API_Watch_ErroryA2CmF",
+            "moduleName": "temp1"
+          },
+          {
+            "kind": "Var",
+            "name": "KCPA_API_Download_Complete",
+            "printedName": "KCPA_API_Download_Complete",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(temp1.KCPA_APIType.Type) -> temp1.KCPA_APIType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KCPA_APIType",
+                    "printedName": "temp1.KCPA_APIType",
+                    "usr": "s:5temp112KCPA_APITypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "temp1.KCPA_APIType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KCPA_APIType",
+                        "printedName": "temp1.KCPA_APIType",
+                        "usr": "s:5temp112KCPA_APITypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5temp112KCPA_APITypeO0B22_API_Download_CompleteyA2CmF",
+            "mangledName": "$s5temp112KCPA_APITypeO0B22_API_Download_CompleteyA2CmF",
+            "moduleName": "temp1"
+          },
+          {
+            "kind": "Var",
+            "name": "KCPA_API_Download_Delete",
+            "printedName": "KCPA_API_Download_Delete",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(temp1.KCPA_APIType.Type) -> temp1.KCPA_APIType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KCPA_APIType",
+                    "printedName": "temp1.KCPA_APIType",
+                    "usr": "s:5temp112KCPA_APITypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "temp1.KCPA_APIType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KCPA_APIType",
+                        "printedName": "temp1.KCPA_APIType",
+                        "usr": "s:5temp112KCPA_APITypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5temp112KCPA_APITypeO0B20_API_Download_DeleteyA2CmF",
+            "mangledName": "$s5temp112KCPA_APITypeO0B20_API_Download_DeleteyA2CmF",
+            "moduleName": "temp1"
+          },
+          {
+            "kind": "Var",
+            "name": "KCPA_API_Download_Error",
+            "printedName": "KCPA_API_Download_Error",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(temp1.KCPA_APIType.Type) -> temp1.KCPA_APIType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KCPA_APIType",
+                    "printedName": "temp1.KCPA_APIType",
+                    "usr": "s:5temp112KCPA_APITypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "temp1.KCPA_APIType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KCPA_APIType",
+                        "printedName": "temp1.KCPA_APIType",
+                        "usr": "s:5temp112KCPA_APITypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5temp112KCPA_APITypeO0B19_API_Download_ErroryA2CmF",
+            "mangledName": "$s5temp112KCPA_APITypeO0B19_API_Download_ErroryA2CmF",
+            "moduleName": "temp1"
+          },
+          {
+            "kind": "Var",
+            "name": "KCPA_API_Activity",
+            "printedName": "KCPA_API_Activity",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(temp1.KCPA_APIType.Type) -> temp1.KCPA_APIType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KCPA_APIType",
+                    "printedName": "temp1.KCPA_APIType",
+                    "usr": "s:5temp112KCPA_APITypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "temp1.KCPA_APIType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KCPA_APIType",
+                        "printedName": "temp1.KCPA_APIType",
+                        "usr": "s:5temp112KCPA_APITypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:5temp112KCPA_APITypeO0B13_API_ActivityyA2CmF",
+            "mangledName": "$s5temp112KCPA_APITypeO0B13_API_ActivityyA2CmF",
+            "moduleName": "temp1"
+          },
+          {
+            "kind": "Var",
+            "name": "name",
+            "printedName": "name",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5temp112KCPA_APITypeO4nameSSvp",
+            "mangledName": "$s5temp112KCPA_APITypeO4nameSSvp",
+            "moduleName": "temp1",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5temp112KCPA_APITypeO4nameSSvg",
+                "mangledName": "$s5temp112KCPA_APITypeO4nameSSvg",
+                "moduleName": "temp1",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "temp1.KCPA_APIType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KCPA_APIType",
+                    "printedName": "temp1.KCPA_APIType",
+                    "usr": "s:5temp112KCPA_APITypeO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:5temp112KCPA_APITypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s5temp112KCPA_APITypeO8rawValueACSgSi_tcfc",
+            "moduleName": "temp1",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:5temp112KCPA_APITypeO8rawValueSivp",
+            "mangledName": "$s5temp112KCPA_APITypeO8rawValueSivp",
+            "moduleName": "temp1",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:5temp112KCPA_APITypeO8rawValueSivg",
+                "mangledName": "$s5temp112KCPA_APITypeO8rawValueSivg",
+                "moduleName": "temp1",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:5temp112KCPA_APITypeO",
+        "mangledName": "$s5temp112KCPA_APITypeO",
+        "moduleName": "temp1",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Alamofire",
+        "printedName": "Alamofire",
+        "declKind": "Import",
+        "moduleName": "temp1",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "temp1"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/Fruit.swift",
+      "kind": "FloatLiteral",
+      "offset": 294,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/Fruit.swift",
+      "kind": "FloatLiteral",
+      "offset": 319,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/Fruit.swift",
+      "kind": "StringLiteral",
+      "offset": 343,
+      "length": 7,
+      "value": "\"FRUIT\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/Fruit.swift",
+      "kind": "StringLiteral",
+      "offset": 773,
+      "length": 18,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/Fruit.swift",
+      "kind": "StringLiteral",
+      "offset": 790,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/Fruit.swift",
+      "kind": "StringLiteral",
+      "offset": 807,
+      "length": 18,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/Fruit.swift",
+      "kind": "StringLiteral",
+      "offset": 824,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/Fruit.swift",
+      "kind": "StringLiteral",
+      "offset": 841,
+      "length": 17,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/Fruit.swift",
+      "kind": "StringLiteral",
+      "offset": 857,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/ActionTypeValue.swift",
+      "kind": "StringLiteral",
+      "offset": 173,
+      "length": 7,
+      "value": "\"START\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/ActionTypeValue.swift",
+      "kind": "StringLiteral",
+      "offset": 227,
+      "length": 6,
+      "value": "\"EXIT\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/ActionTypeValue.swift",
+      "kind": "StringLiteral",
+      "offset": 363,
+      "length": 8,
+      "value": "\"SIGNIN\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/ActionTypeValue.swift",
+      "kind": "StringLiteral",
+      "offset": 418,
+      "length": 9,
+      "value": "\"SIGNOUT\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/ActionTypeValue.swift",
+      "kind": "StringLiteral",
+      "offset": 496,
+      "length": 6,
+      "value": "\"PLAY\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/ActionTypeValue.swift",
+      "kind": "StringLiteral",
+      "offset": 550,
+      "length": 9,
+      "value": "\"PLAYING\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/ActionTypeValue.swift",
+      "kind": "StringLiteral",
+      "offset": 605,
+      "length": 8,
+      "value": "\"BUFFER\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/ActionTypeValue.swift",
+      "kind": "StringLiteral",
+      "offset": 661,
+      "length": 11,
+      "value": "\"BUFFERING\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/ActionTypeValue.swift",
+      "kind": "StringLiteral",
+      "offset": 749,
+      "length": 7,
+      "value": "\"PAUSE\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/ActionTypeValue.swift",
+      "kind": "StringLiteral",
+      "offset": 804,
+      "length": 6,
+      "value": "\"STOP\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/ActionTypeValue.swift",
+      "kind": "StringLiteral",
+      "offset": 858,
+      "length": 6,
+      "value": "\"SEEK\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/ActionTypeValue.swift",
+      "kind": "StringLiteral",
+      "offset": 912,
+      "length": 9,
+      "value": "\"SEEKING\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/ActionTypeValue.swift",
+      "kind": "StringLiteral",
+      "offset": 971,
+      "length": 10,
+      "value": "\"DOWNLOAD\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/ActionTypeValue.swift",
+      "kind": "StringLiteral",
+      "offset": 1027,
+      "length": 8,
+      "value": "\"DELETE\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/ActionTypeValue.swift",
+      "kind": "StringLiteral",
+      "offset": 1085,
+      "length": 7,
+      "value": "\"ERROR\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "IntegerLiteral",
+      "offset": 165,
+      "length": 6,
+      "value": "400000"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "IntegerLiteral",
+      "offset": 216,
+      "length": 6,
+      "value": "777000"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "IntegerLiteral",
+      "offset": 267,
+      "length": 6,
+      "value": "777001"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "IntegerLiteral",
+      "offset": 318,
+      "length": 6,
+      "value": "777002"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "IntegerLiteral",
+      "offset": 369,
+      "length": 6,
+      "value": "999999"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 534,
+      "length": 9,
+      "value": "\"apiType\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 589,
+      "length": 14,
+      "value": "\"playerStatus\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 649,
+      "length": 12,
+      "value": "\"requestURL\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 707,
+      "length": 7,
+      "value": "\"param\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 760,
+      "length": 16,
+      "value": "\"access_log_url\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 822,
+      "length": 15,
+      "value": "\"watch_log_url\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 883,
+      "length": 18,
+      "value": "\"download_log_url\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 947,
+      "length": 18,
+      "value": "\"activity_log_url\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1011,
+      "length": 20,
+      "value": "\"check_interval_sec\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1077,
+      "length": 12,
+      "value": "\"auth_token\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1135,
+      "length": 16,
+      "value": "\"access_session\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1197,
+      "length": 15,
+      "value": "\"watch_session\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1258,
+      "length": 18,
+      "value": "\"download_session\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1322,
+      "length": 12,
+      "value": "\"error_code\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1380,
+      "length": 11,
+      "value": "\"error_log\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1437,
+      "length": 25,
+      "value": "\"session_start_timestamp\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1508,
+      "length": 11,
+      "value": "\"timestamp\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1577,
+      "length": 8,
+      "value": "\"userID\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1631,
+      "length": 14,
+      "value": "\"userPassword\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1691,
+      "length": 13,
+      "value": "\"serviceName\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1760,
+      "length": 12,
+      "value": "\"appVersion\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1818,
+      "length": 8,
+      "value": "\"userID\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1872,
+      "length": 7,
+      "value": "\"email\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1925,
+      "length": 10,
+      "value": "\"userType\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 1981,
+      "length": 8,
+      "value": "\"gender\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2035,
+      "length": 10,
+      "value": "\"birthday\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2091,
+      "length": 13,
+      "value": "\"householdID\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2159,
+      "length": 9,
+      "value": "\"assetID\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2214,
+      "length": 12,
+      "value": "\"serverName\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2272,
+      "length": 4,
+      "value": "\"cp\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2322,
+      "length": 10,
+      "value": "\"category\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2378,
+      "length": 12,
+      "value": "\"seriesName\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2436,
+      "length": 12,
+      "value": "\"seasonName\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2494,
+      "length": 13,
+      "value": "\"episodeName\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2553,
+      "length": 16,
+      "value": "\"collectionName\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2615,
+      "length": 13,
+      "value": "\"serviceType\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2674,
+      "length": 11,
+      "value": "\"audioLang\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2731,
+      "length": 14,
+      "value": "\"subtitleLang\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2791,
+      "length": 15,
+      "value": "\"playbackSpeed\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2852,
+      "length": 9,
+      "value": "\"Bitrate\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2919,
+      "length": 12,
+      "value": "\"validUntil\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 2986,
+      "length": 9,
+      "value": "\"errCode\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3041,
+      "length": 7,
+      "value": "\"errMs\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3119,
+      "length": 12,
+      "value": "\"serverType\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3178,
+      "length": 9,
+      "value": "\"service\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3234,
+      "length": 10,
+      "value": "\"platform\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3291,
+      "length": 5,
+      "value": "\"IOS\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3343,
+      "length": 9,
+      "value": "\"APPLETV\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3399,
+      "length": 10,
+      "value": "\"admin_id\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3456,
+      "length": 16,
+      "value": "\"admin_password\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3519,
+      "length": 13,
+      "value": "\"action_type\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3579,
+      "length": 14,
+      "value": "\"household_id\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3640,
+      "length": 9,
+      "value": "\"user_id\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3696,
+      "length": 7,
+      "value": "\"email\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3750,
+      "length": 11,
+      "value": "\"user_type\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3808,
+      "length": 9,
+      "value": "\"app_ver\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3864,
+      "length": 4,
+      "value": "\"os\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3915,
+      "length": 8,
+      "value": "\"os_ver\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 3970,
+      "length": 9,
+      "value": "\"sdk_ver\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 4026,
+      "length": 11,
+      "value": "\"device_id\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 4084,
+      "length": 15,
+      "value": "\"device_vendor\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 4146,
+      "length": 14,
+      "value": "\"device_model\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 4207,
+      "length": 14,
+      "value": "\"browser_name\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 4268,
+      "length": 13,
+      "value": "\"browser_ver\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 4328,
+      "length": 9,
+      "value": "\"country\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 4384,
+      "length": 8,
+      "value": "\"region\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 4439,
+      "length": 6,
+      "value": "\"city\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 4492,
+      "length": 8,
+      "value": "\"gender\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 4547,
+      "length": 12,
+      "value": "\"birth_date\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 4606,
+      "length": 4,
+      "value": "\"ip\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 4657,
+      "length": 5,
+      "value": "\"isp\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 4709,
+      "length": 4,
+      "value": "\"cp\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 4760,
+      "length": 10,
+      "value": "\"category\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 4817,
+      "length": 13,
+      "value": "\"series_name\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 4877,
+      "length": 13,
+      "value": "\"season_name\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 4937,
+      "length": 14,
+      "value": "\"episode_name\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 4998,
+      "length": 13,
+      "value": "\"episode_num\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 5058,
+      "length": 10,
+      "value": "\"duration\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 5115,
+      "length": 10,
+      "value": "\"asset_id\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 5172,
+      "length": 11,
+      "value": "\"parent_id\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 5230,
+      "length": 17,
+      "value": "\"collection_name\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 5294,
+      "length": 14,
+      "value": "\"service_type\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 5355,
+      "length": 19,
+      "value": "\"playback_position\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 5421,
+      "length": 11,
+      "value": "\"is_finish\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 5479,
+      "length": 16,
+      "value": "\"playback_speed\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 5542,
+      "length": 15,
+      "value": "\"subtitle_lang\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 5604,
+      "length": 12,
+      "value": "\"audio_lang\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 5663,
+      "length": 11,
+      "value": "\"cast_type\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 5721,
+      "length": 13,
+      "value": "\"server_name\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 5781,
+      "length": 9,
+      "value": "\"bitrate\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 5837,
+      "length": 13,
+      "value": "\"valid_until\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 5897,
+      "length": 9,
+      "value": "\"ui_code\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 5953,
+      "length": 11,
+      "value": "\"parameter\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CommonKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 6012,
+      "length": 8,
+      "value": "\"1.0.18\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/Utility.swift",
+      "kind": "StringLiteral",
+      "offset": 226,
+      "length": 9,
+      "value": "\"[KCPA] \""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CastTypeValue.swift",
+      "kind": "StringLiteral",
+      "offset": 161,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CastTypeValue.swift",
+      "kind": "StringLiteral",
+      "offset": 209,
+      "length": 10,
+      "value": "\"Air Play\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/CastTypeValue.swift",
+      "kind": "StringLiteral",
+      "offset": 265,
+      "length": 13,
+      "value": "\"Google Cast\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/extension+DataRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 217,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/extension+DataRequest.swift",
+      "kind": "IntegerLiteral",
+      "offset": 254,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/extension+DataRequest.swift",
+      "kind": "BooleanLiteral",
+      "offset": 283,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/extension+DataRequest.swift",
+      "kind": "Array",
+      "offset": 1420,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "Dictionary",
+      "offset": 545,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "Dictionary",
+      "offset": 605,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "Dictionary",
+      "offset": 667,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "Dictionary",
+      "offset": 716,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "Dictionary",
+      "offset": 763,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "Dictionary",
+      "offset": 815,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "Dictionary",
+      "offset": 865,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "Dictionary",
+      "offset": 915,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1398,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "StringLiteral",
+      "offset": 1438,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1473,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "Dictionary",
+      "offset": 1522,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1606,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1641,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1707,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1738,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1775,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1935,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1950,
+      "length": 17,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1935,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1950,
+      "length": 17,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1935,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1950,
+      "length": 17,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2060,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2075,
+      "length": 20,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2109,
+      "length": 21,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2060,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2075,
+      "length": 20,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2109,
+      "length": 21,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2060,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2075,
+      "length": 20,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2109,
+      "length": 21,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2216,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2231,
+      "length": 15,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2260,
+      "length": 16,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2290,
+      "length": 15,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2319,
+      "length": 15,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2348,
+      "length": 15,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2216,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2231,
+      "length": 15,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2260,
+      "length": 16,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2290,
+      "length": 15,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2319,
+      "length": 15,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2348,
+      "length": 15,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2216,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2231,
+      "length": 15,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2260,
+      "length": 16,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2290,
+      "length": 15,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2319,
+      "length": 15,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2348,
+      "length": 15,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2443,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2458,
+      "length": 16,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2488,
+      "length": 15,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2443,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2458,
+      "length": 16,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2488,
+      "length": 15,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2443,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2458,
+      "length": 16,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2488,
+      "length": 15,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2588,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2603,
+      "length": 17,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2588,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2603,
+      "length": 17,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2588,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2603,
+      "length": 17,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "StringLiteral",
+      "offset": 2864,
+      "length": 8,
+      "value": "\"kParam\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "Dictionary",
+      "offset": 2896,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "Dictionary",
+      "offset": 5007,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "StringLiteral",
+      "offset": 5472,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "StringLiteral",
+      "offset": 5520,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5570,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "StringLiteral",
+      "offset": 5614,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5911,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6109,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6406,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6637,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6708,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6850,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6979,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7773,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7831,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7963,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "StringLiteral",
+      "offset": 8081,
+      "length": 120,
+      "value": "\"[ERR] Watch content information does not exist. Please set the watch content info by calling the KCPA_SetWatchContent.\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8223,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8389,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8593,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "StringLiteral",
+      "offset": 8776,
+      "length": 83,
+      "value": "\"[ERR] The watch content information has an invalid required parameter. [%@ or %@]\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8910,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9086,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "StringLiteral",
+      "offset": 9248,
+      "length": 77,
+      "value": "\"[ERR] The watch content information has an invalid required parameter. [%@]\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9363,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9413,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9528,
+      "length": 5,
+      "value": "50000"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCP_Analytics.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10299,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/ResponseParamKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 176,
+      "length": 8,
+      "value": "\"result\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/ResponseParamKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 231,
+      "length": 9,
+      "value": "\"success\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/ResponseParamKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 287,
+      "length": 9,
+      "value": "\"failure\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/ResponseParamKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 343,
+      "length": 6,
+      "value": "\"data\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/ResponseParamKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 396,
+      "length": 16,
+      "value": "\"request_method\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/ResponseParamKeys.swift",
+      "kind": "StringLiteral",
+      "offset": 459,
+      "length": 9,
+      "value": "\"message\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 168,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 179,
+      "length": 22,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 211,
+      "length": 23,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 244,
+      "length": 24,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 278,
+      "length": 21,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 309,
+      "length": 22,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 341,
+      "length": 20,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 371,
+      "length": 21,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 402,
+      "length": 20,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 432,
+      "length": 26,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 468,
+      "length": 24,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 502,
+      "length": 23,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 535,
+      "length": 17,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "StringLiteral",
+      "offset": 665,
+      "length": 23,
+      "value": "\"KCPA_API_Authenticate\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "StringLiteral",
+      "offset": 744,
+      "length": 24,
+      "value": "\"KCPA_API_Session_Start\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "StringLiteral",
+      "offset": 824,
+      "length": 25,
+      "value": "\"KCPA_API_Session_SignIn\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "StringLiteral",
+      "offset": 905,
+      "length": 26,
+      "value": "\"KCPA_API_Session_SignOut\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "StringLiteral",
+      "offset": 987,
+      "length": 23,
+      "value": "\"KCPA_API_Session_Exit\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "StringLiteral",
+      "offset": 1066,
+      "length": 24,
+      "value": "\"KCPA_API_Session_Error\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "StringLiteral",
+      "offset": 1146,
+      "length": 22,
+      "value": "\"KCPA_API_Watch_Start\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "StringLiteral",
+      "offset": 1224,
+      "length": 23,
+      "value": "\"KCPA_API_Watch_Update\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "StringLiteral",
+      "offset": 1303,
+      "length": 22,
+      "value": "\"KCPA_API_Watch_Error\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "StringLiteral",
+      "offset": 1381,
+      "length": 28,
+      "value": "\"KCPA_API_Download_Complete\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "StringLiteral",
+      "offset": 1465,
+      "length": 26,
+      "value": "\"KCPA_API_Download_Delete\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "StringLiteral",
+      "offset": 1547,
+      "length": 25,
+      "value": "\"KCPA_API_Download_Error\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "StringLiteral",
+      "offset": 1721,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 168,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 179,
+      "length": 22,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 211,
+      "length": 23,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 244,
+      "length": 24,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 278,
+      "length": 21,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 309,
+      "length": 22,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 341,
+      "length": 20,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 371,
+      "length": 21,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 402,
+      "length": 20,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 432,
+      "length": 26,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 468,
+      "length": 24,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 502,
+      "length": 23,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 535,
+      "length": 17,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 168,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 179,
+      "length": 22,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 211,
+      "length": 23,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 244,
+      "length": 24,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 278,
+      "length": 21,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 309,
+      "length": 22,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 341,
+      "length": 20,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 371,
+      "length": 21,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 402,
+      "length": 20,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 432,
+      "length": 26,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 468,
+      "length": 24,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 502,
+      "length": 23,
+      "value": "11"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_APIIType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 535,
+      "length": 17,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_HttpAPIClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 238,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_HttpAPIClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 486,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_HttpAPIClient.swift",
+      "kind": "StringLiteral",
+      "offset": 1643,
+      "length": 13,
+      "value": "\"kRequestURL\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_HttpAPIClient.swift",
+      "kind": "StringLiteral",
+      "offset": 1682,
+      "length": 8,
+      "value": "\"kParam\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_HttpAPIClient.swift",
+      "kind": "StringLiteral",
+      "offset": 2709,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_HttpAPIClient.swift",
+      "kind": "Array",
+      "offset": 3323,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_HttpAPIClient.swift",
+      "kind": "Dictionary",
+      "offset": 4239,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_HttpAPIClient.swift",
+      "kind": "StringLiteral",
+      "offset": 8389,
+      "length": 19,
+      "value": "\"Request timed out\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_HttpAPIClient.swift",
+      "kind": "StringLiteral",
+      "offset": 8520,
+      "length": 25,
+      "value": "\"Network connection lost\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_HttpAPIClient.swift",
+      "kind": "StringLiteral",
+      "offset": 8658,
+      "length": 27,
+      "value": "\"Not connected to internet\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_HttpAPIClient.swift",
+      "kind": "StringLiteral",
+      "offset": 8770,
+      "length": 31,
+      "value": "\"Response data does not exists\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_HttpAPIClient.swift",
+      "kind": "StringLiteral",
+      "offset": 8879,
+      "length": 23,
+      "value": "\"Invalid response data\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_HttpAPIClient.swift",
+      "kind": "StringLiteral",
+      "offset": 9050,
+      "length": 40,
+      "value": "\"An unknown exception has occurred [%@]\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_HttpAPIClient.swift",
+      "kind": "StringLiteral",
+      "offset": 9279,
+      "length": 29,
+      "value": "\"Failed to send request [%@]\""
+    },
+    {
+      "filePath": "\/Users\/hyeon-eunbaeg\/Desktop\/temp1\/temp1\/KCPA_HttpAPIClient.swift",
+      "kind": "StringLiteral",
+      "offset": 9440,
+      "length": 31,
+      "value": "\"An unknown error has occurred\""
+    }
+  ]
+}

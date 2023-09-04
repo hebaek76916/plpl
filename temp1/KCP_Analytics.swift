@@ -13,8 +13,10 @@ public class KCP_Analytics {
     weak var dataSource: KCPA_Datasource?
     weak var delegate: KCPA_Delegate?
     
-    
     static let shared = KCP_Analytics()
+    
+    var platform = KCPA_AplePlatform.KCPA_PlatformiOS
+    var client = KCPA_HttpAPIClient()
     
     //Session IDs
     var strAccessSession: String?
@@ -62,18 +64,18 @@ public class KCP_Analytics {
     private init() {}
     
     //Q. 해당 enum들의 Int값이 필요한가?
-    enum KCPA_ServerType: Int {
+    public enum KCPA_ServerType: Int {
         case KCPA_PlatformiOS = 0
         case KCPA_PlatformtvOS
     }
     
-    enum KCPA_SessionActionType: Int {
+    public enum KCPA_SessionActionType: Int {
         case KCPA_Session_SignIn = 0
         case KCPA_Session_SignOut
         case KCPA_Session_SignExit
     }
     
-    enum KCPA_PlayerStatus: Int {
+    public enum KCPA_PlayerStatus: Int {
         case KCPA_PlayerBuffer = 0
         case KCPA_PlayerPlay
         case KCPA_PlayerPause
@@ -82,15 +84,19 @@ public class KCP_Analytics {
         case KCPA_PlayerExit
     }
     
-    enum KCPA_CastType: Int {
+    public enum KCPA_CastType: Int {
         case KCPA_CastPlayer = 0
         case KCPA_CastAirPlay
         case KCPA_CastGoogle
     }
     
+    public enum KCPA_AplePlatform: Int {
+        case KCPA_PlatformiOS = 0
+        case KCPA_PlatformtvOS
+    }
     
     //🥎
-    func request(
+    public func request(
         apiType: KCPA_APIType,
         didReceiveError errCode: Int,
         withMessage strErrMsg: String,
@@ -325,4 +331,38 @@ extension KCP_Analytics {
         
         return result
     }
+}
+
+
+public extension KCP_Analytics {
+    
+    func KCPA_InitSDK(
+        serverType: KCPA_ServerType,
+        platformType: KCPA_AplePlatform,
+        userID: String,
+        userPassword: String,
+        serviceName: String,
+        logEnabled: Bool
+    ) {
+        
+        self.debugEnabled = logEnabled
+        
+        let a = checkAuthSessionIsInitialized()
+        let b = checkNSStringParam(strParam: userID, withName: kPNServiceID)
+        let c = checkNSStringParam(strParam: userPassword, withName: kPNServicePassword)
+        let d = checkNSStringParam(strParam: serviceName, withName: kPNServiceName)
+        
+        do {
+            nReqAuthRetryCount = 0
+            platform = platformType
+            
+            var strVersion = SDK_VERSION
+            
+            dicAuthInfo
+        }
+        catch {
+            
+        }
+    }
+    
 }
